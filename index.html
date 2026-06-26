@@ -111,6 +111,7 @@
       return [...new Set((values || []).map(v => String(v || '').trim()).filter(Boolean).filter(v => v.toLowerCase() !== 'other'))];
     }
     function projectSummary(p) {
+      if (p.description) return p.description;
       if (p.summary) return p.summary;
       const type = p.type || 'project support';
       const typeLower = type.toLowerCase();
@@ -145,7 +146,7 @@
       const state = $('stateFilter').value;
       const type = $('typeFilter').value;
       filtered = projects.filter(p => {
-        const haystack = [p.name, p.client, p.locality, p.stateName, p.type, ...(p.themes || [])].join(' ').toLowerCase();
+        const haystack = [p.name, p.client, p.locality, p.stateName, p.type, p.description, ...(p.themes || [])].join(' ').toLowerCase();
         return (!state || p.state === state) && (!type || p.type === type) && (!query || haystack.includes(query));
       });
       selected = Math.min(selected, Math.max(0, filtered.length - 1));
