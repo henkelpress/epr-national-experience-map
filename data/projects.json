@@ -12,10 +12,8 @@
     "locality": "Abingdon",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 36.7098,
-    "lon": -81.9774,
-    "x": 823.8,
-    "y": 378.9
+    "x": 829.7,
+    "y": 374.3
   },
   {
     "id": "p0002",
@@ -30,40 +28,38 @@
     "locality": "Albemarle County",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 38.0336,
-    "lon": -78.508,
-    "x": 879.9,
-    "y": 338.9
+    "x": 886.8,
+    "y": 333.6
   },
   {
     "id": "p0003",
     "name": "Albemarle County Three Notched Trail 2026",
     "client": "Albemarle County Three Notched Trail 2026",
     "type": "Other",
-    "themes": [],
+    "themes": [
+      "Other"
+    ],
     "year": "2026",
     "locality": "Albemarle County",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 38.0336,
-    "lon": -78.508,
-    "x": 879.9,
-    "y": 338.9
+    "x": 886.8,
+    "y": 333.6
   },
   {
     "id": "p0004",
     "name": "Albemarle County Form Based Code 2025",
     "client": "Albemarle County",
     "type": "Other",
-    "themes": [],
+    "themes": [
+      "Other"
+    ],
     "year": "2025",
     "locality": "Albemarle County",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 38.0336,
-    "lon": -78.508,
-    "x": 879.9,
-    "y": 338.9
+    "x": 886.8,
+    "y": 333.6
   },
   {
     "id": "p0005",
@@ -78,10 +74,8 @@
     "locality": "Albemarle County",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 38.0336,
-    "lon": -78.508,
-    "x": 879.9,
-    "y": 338.9
+    "x": 886.8,
+    "y": 333.6
   },
   {
     "id": "p0006",
@@ -95,40 +89,38 @@
     "locality": "Altavista",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 37.1118,
-    "lon": -79.2856,
-    "x": 870.1,
-    "y": 362.1
+    "x": 876.8,
+    "y": 357.1
   },
   {
     "id": "p0007",
     "name": "Appomattox Old Courthouse Road Area Study 2023",
     "client": "Appomattox Old Courthouse Road Area Study 2023",
     "type": "Other",
-    "themes": [],
+    "themes": [
+      "Other"
+    ],
     "year": "2023",
     "locality": "Appomattox",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 37.3571,
-    "lon": -78.8253,
-    "x": 877.2,
-    "y": 355.1
+    "x": 884.0,
+    "y": 350.1
   },
   {
     "id": "p0008",
     "name": "Arnett Boulevard Danville",
     "client": "Arnett Boulevard Danville",
     "type": "Other",
-    "themes": [],
+    "themes": [
+      "Other"
+    ],
     "year": "",
     "locality": "Danville",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 36.5859,
-    "lon": -79.395,
-    "x": 870.2,
-    "y": 374.2
+    "x": 877.0,
+    "y": 369.5
   },
   {
     "id": "p0009",
@@ -143,10 +135,8 @@
     "locality": "Ashland",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 37.759,
-    "lon": -77.479,
-    "x": 899.1,
-    "y": 341.6
+    "x": 906.3,
+    "y": 336.3
   },
   {
     "id": "p0010",
@@ -161,10 +151,8 @@
     "locality": "Bedford",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 37.3343,
-    "lon": -79.5231,
-    "x": 865.0,
-    "y": 357.8
+    "x": 871.6,
+    "y": 352.8
   },
   {
     "id": "p0011",
@@ -179,10 +167,8 @@
     "locality": "Bedford",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 37.3343,
-    "lon": -79.5231,
-    "x": 865.0,
-    "y": 357.8
+    "x": 871.6,
+    "y": 352.8
   },
   {
     "id": "p0012",
@@ -196,10 +182,8 @@
     "locality": "Blacksburg",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 37.2296,
-    "lon": -80.4139,
-    "x": 849.7,
-    "y": 362.8
+    "x": 856.1,
+    "y": 357.9
   },
   {
     "id": "p0013",
@@ -214,10 +198,8 @@
     "locality": "Central Virginia",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 37.4138,
-    "lon": -79.1422,
-    "x": 871.4,
-    "y": 354.8
+    "x": 878.1,
+    "y": 349.8
   },
   {
     "id": "p0014",
@@ -232,55 +214,53 @@
     "locality": "Central Virginia",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 37.4138,
-    "lon": -79.1422,
-    "x": 871.4,
-    "y": 354.8
+    "x": 878.1,
+    "y": 349.8
   },
   {
     "id": "p0015",
     "name": "Charlotte NECI Feasability",
     "client": "Charlotte NECI Feasability",
     "type": "Other",
-    "themes": [],
+    "themes": [
+      "Other"
+    ],
     "year": "",
     "locality": "Charlotte",
     "state": "NC",
     "stateName": "North Carolina",
-    "lat": 35.2271,
-    "lon": -80.8431,
-    "x": 849.4,
-    "y": 409.2
+    "x": 855.7,
+    "y": 405.0
   },
   {
     "id": "p0016",
     "name": "Charlottesville Albemarle MPO 2050 LRTP 2024",
     "client": "Charlottesville Albemarle MPO",
     "type": "Other",
-    "themes": [],
+    "themes": [
+      "Other"
+    ],
     "year": "2050",
     "locality": "Charlottesville",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 38.0293,
-    "lon": -78.4767,
-    "x": 880.5,
-    "y": 338.9
+    "x": 887.4,
+    "y": 333.6
   },
   {
     "id": "p0017",
     "name": "Charlottesville Albemarle MPO Transit Vision 2022",
     "client": "Charlottesville Albemarle MPO",
     "type": "Other",
-    "themes": [],
+    "themes": [
+      "Other"
+    ],
     "year": "2022",
     "locality": "Charlottesville",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 38.0293,
-    "lon": -78.4767,
-    "x": 880.5,
-    "y": 338.9
+    "x": 887.4,
+    "y": 333.6
   },
   {
     "id": "p0018",
@@ -295,10 +275,8 @@
     "locality": "Charlottesville",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 38.0293,
-    "lon": -78.4767,
-    "x": 880.5,
-    "y": 338.9
+    "x": 887.4,
+    "y": 333.6
   },
   {
     "id": "p0019",
@@ -312,10 +290,8 @@
     "locality": "Chattanooga",
     "state": "TN",
     "stateName": "Tennessee",
-    "lat": 35.0456,
-    "lon": -85.3097,
-    "x": 768.5,
-    "y": 424.4
+    "x": 773.5,
+    "y": 420.5
   },
   {
     "id": "p0020",
@@ -329,10 +305,8 @@
     "locality": "Duluth",
     "state": "MN",
     "stateName": "Minnesota",
-    "lat": 46.7867,
-    "lon": -92.1005,
-    "x": 632.8,
-    "y": 167.0
+    "x": 635.5,
+    "y": 158.8
   },
   {
     "id": "p0021",
@@ -346,10 +320,8 @@
     "locality": "Texas",
     "state": "TX",
     "stateName": "Texas",
-    "lat": 31.0545,
-    "lon": -97.5635,
-    "x": 541.7,
-    "y": 525.9
+    "x": 542.8,
+    "y": 523.8
   },
   {
     "id": "p0022",
@@ -364,10 +336,8 @@
     "locality": "Fauquier County",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 38.7441,
-    "lon": -77.821,
-    "x": 888.8,
-    "y": 320.7
+    "x": 895.8,
+    "y": 315.1
   },
   {
     "id": "p0023",
@@ -382,25 +352,23 @@
     "locality": "Franklin County",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 37.0,
-    "lon": -79.8833,
-    "x": 860.0,
-    "y": 366.4
+    "x": 866.5,
+    "y": 361.6
   },
   {
     "id": "p0024",
     "name": "GAP Vinton 2021",
     "client": "GAP",
     "type": "Other",
-    "themes": [],
+    "themes": [
+      "Other"
+    ],
     "year": "2021",
     "locality": "Vinton",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 37.2809,
-    "lon": -79.8969,
-    "x": 858.6,
-    "y": 360.1
+    "x": 865.2,
+    "y": 355.2
   },
   {
     "id": "p0025",
@@ -415,25 +383,23 @@
     "locality": "Hanover County",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 37.7601,
-    "lon": -77.49,
-    "x": 898.9,
-    "y": 341.6
+    "x": 906.1,
+    "y": 336.4
   },
   {
     "id": "p0026",
     "name": "Harrisonburg Roadway Reconfigurations",
     "client": "Harrisonburg Roadway Reconfigurations",
     "type": "Other",
-    "themes": [],
+    "themes": [
+      "Other"
+    ],
     "year": "",
     "locality": "Harrisonburg",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 38.4496,
-    "lon": -78.8689,
-    "x": 872.0,
-    "y": 330.7
+    "x": 878.7,
+    "y": 325.3
   },
   {
     "id": "p0027",
@@ -448,25 +414,23 @@
     "locality": "Harrisonburg",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 38.4496,
-    "lon": -78.8689,
-    "x": 872.0,
-    "y": 330.7
+    "x": 878.7,
+    "y": 325.3
   },
   {
     "id": "p0028",
     "name": "Harrisonburg Roadway Reconfigurations 2025",
     "client": "Harrisonburg",
     "type": "Other",
-    "themes": [],
+    "themes": [
+      "Other"
+    ],
     "year": "2025",
     "locality": "Harrisonburg",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 38.4496,
-    "lon": -78.8689,
-    "x": 872.0,
-    "y": 330.7
+    "x": 878.7,
+    "y": 325.3
   },
   {
     "id": "p0029",
@@ -481,10 +445,8 @@
     "locality": "Henrico County",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 37.5059,
-    "lon": -77.3324,
-    "x": 902.7,
-    "y": 346.8
+    "x": 910.0,
+    "y": 341.6
   },
   {
     "id": "p0030",
@@ -499,10 +461,8 @@
     "locality": "Irvington",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 37.6635,
-    "lon": -76.4197,
-    "x": 917.9,
-    "y": 340.0
+    "x": 925.5,
+    "y": 334.7
   },
   {
     "id": "p0031",
@@ -517,25 +477,23 @@
     "locality": "James City County",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 37.323,
-    "lon": -76.778,
-    "x": 913.3,
-    "y": 348.9
+    "x": 920.7,
+    "y": 343.8
   },
   {
     "id": "p0032",
     "name": "jaunt",
     "client": "jaunt",
     "type": "Other",
-    "themes": [],
+    "themes": [
+      "Other"
+    ],
     "year": "",
     "locality": "Charlottesville",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 38.0293,
-    "lon": -78.4767,
-    "x": 880.5,
-    "y": 338.9
+    "x": 887.4,
+    "y": 333.6
   },
   {
     "id": "p0033",
@@ -550,40 +508,38 @@
     "locality": "Lovettsville",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 39.2726,
-    "lon": -77.6369,
-    "x": 889.7,
-    "y": 308.2
+    "x": 896.7,
+    "y": 302.4
   },
   {
     "id": "p0034",
     "name": "Lynchburg Two Way Conversions 2025",
     "client": "Lynchburg Two Way Conversions 2025",
     "type": "Other",
-    "themes": [],
+    "themes": [
+      "Other"
+    ],
     "year": "2025",
     "locality": "Lynchburg",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 37.4138,
-    "lon": -79.1422,
-    "x": 871.4,
-    "y": 354.8
+    "x": 878.1,
+    "y": 349.8
   },
   {
     "id": "p0035",
     "name": "Martinsville, VA Food Hub 2020",
     "client": "Martinsville",
     "type": "Other",
-    "themes": [],
+    "themes": [
+      "Other"
+    ],
     "year": "2020",
     "locality": "Martinsville",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 36.6915,
-    "lon": -79.8725,
-    "x": 861.3,
-    "y": 373.3
+    "x": 867.9,
+    "y": 368.6
   },
   {
     "id": "p0036",
@@ -597,55 +553,53 @@
     "locality": "Monte Vista",
     "state": "CO",
     "stateName": "Colorado",
-    "lat": 37.5792,
-    "lon": -106.1481,
-    "x": 391.5,
-    "y": 368.0
+    "x": 390.1,
+    "y": 363.2
   },
   {
     "id": "p0037",
     "name": "Montgomery Agrotourism 2023",
     "client": "Montgomery Agrotourism 2023",
     "type": "Other",
-    "themes": [],
+    "themes": [
+      "Other"
+    ],
     "year": "2023",
     "locality": "Montgomery County",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 37.1746,
-    "lon": -80.387,
-    "x": 850.4,
-    "y": 364.0
+    "x": 856.8,
+    "y": 359.1
   },
   {
     "id": "p0038",
     "name": "Montgomery, MD Agrotourism Study 2018",
     "client": "Montgomery",
     "type": "Other",
-    "themes": [],
+    "themes": [
+      "Other"
+    ],
     "year": "2018",
     "locality": "Montgomery County",
     "state": "MD",
     "stateName": "Maryland",
-    "lat": 39.1547,
-    "lon": -77.2405,
-    "x": 897.0,
-    "y": 309.5
+    "x": 904.1,
+    "y": 303.7
   },
   {
     "id": "p0039",
     "name": "Montgomery, VA Montgomery Matters 2025",
     "client": "Montgomery",
     "type": "Other",
-    "themes": [],
+    "themes": [
+      "Other"
+    ],
     "year": "2025",
     "locality": "Montgomery County",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 37.1746,
-    "lon": -80.387,
-    "x": 850.4,
-    "y": 364.0
+    "x": 856.8,
+    "y": 359.1
   },
   {
     "id": "p0040",
@@ -659,10 +613,8 @@
     "locality": "Montgomery County",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 37.1746,
-    "lon": -80.387,
-    "x": 850.4,
-    "y": 364.0
+    "x": 856.8,
+    "y": 359.1
   },
   {
     "id": "p0041",
@@ -677,10 +629,8 @@
     "locality": "Montgomery County",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 37.1746,
-    "lon": -80.387,
-    "x": 850.4,
-    "y": 364.0
+    "x": 856.8,
+    "y": 359.1
   },
   {
     "id": "p0042",
@@ -694,40 +644,38 @@
     "locality": "New Bedford",
     "state": "MA",
     "stateName": "Massachusetts",
-    "lat": 41.6362,
-    "lon": -70.9342,
-    "x": 989.2,
-    "y": 229.8
+    "x": 998.0,
+    "y": 222.6
   },
   {
     "id": "p0043",
     "name": "New Kent County 2025",
     "client": "New Kent County 2025",
     "type": "Other",
-    "themes": [],
+    "themes": [
+      "Other"
+    ],
     "year": "2025",
     "locality": "New Kent County",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 37.5171,
-    "lon": -76.9789,
-    "x": 908.9,
-    "y": 345.3
+    "x": 916.2,
+    "y": 340.1
   },
   {
     "id": "p0044",
     "name": "Norfolk Reconnecting Communities",
     "client": "Norfolk Reconnecting Communities",
     "type": "Other",
-    "themes": [],
+    "themes": [
+      "Other"
+    ],
     "year": "",
     "locality": "Norfolk",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 36.8508,
-    "lon": -76.2859,
-    "x": 924.1,
-    "y": 357.6
+    "x": 931.7,
+    "y": 352.7
   },
   {
     "id": "p0045",
@@ -742,10 +690,8 @@
     "locality": "Norfolk",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 36.8508,
-    "lon": -76.2859,
-    "x": 924.1,
-    "y": 357.6
+    "x": 931.7,
+    "y": 352.7
   },
   {
     "id": "p0046",
@@ -759,10 +705,8 @@
     "locality": "Norfolk",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 36.8508,
-    "lon": -76.2859,
-    "x": 924.1,
-    "y": 357.6
+    "x": 931.7,
+    "y": 352.7
   },
   {
     "id": "p0047",
@@ -777,10 +721,8 @@
     "locality": "Norfolk",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 36.8508,
-    "lon": -76.2859,
-    "x": 924.1,
-    "y": 357.6
+    "x": 931.7,
+    "y": 352.7
   },
   {
     "id": "p0048",
@@ -795,25 +737,23 @@
     "locality": "North East",
     "state": "MD",
     "stateName": "Maryland",
-    "lat": 39.6001,
-    "lon": -75.9413,
-    "x": 917.0,
-    "y": 295.0
+    "x": 924.5,
+    "y": 288.9
   },
   {
     "id": "p0049",
     "name": "NSVRC, VA Hazard Mitigation 2023",
     "client": "NSVRC",
     "type": "Other",
-    "themes": [],
+    "themes": [
+      "Other"
+    ],
     "year": "2023",
     "locality": "Northern Shenandoah Valley",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 39.1857,
-    "lon": -78.1633,
-    "x": 881.0,
-    "y": 311.9
+    "x": 887.9,
+    "y": 306.2
   },
   {
     "id": "p0050",
@@ -827,10 +767,8 @@
     "locality": "Pelican Rapids",
     "state": "MN",
     "stateName": "Minnesota",
-    "lat": 46.5708,
-    "lon": -96.0831,
-    "x": 570.7,
-    "y": 173.1
+    "x": 572.3,
+    "y": 165.0
   },
   {
     "id": "p0051",
@@ -844,55 +782,53 @@
     "locality": "Pulaski",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 37.0479,
-    "lon": -80.7798,
-    "x": 843.9,
-    "y": 368.0
+    "x": 850.2,
+    "y": 363.2
   },
   {
     "id": "p0052",
     "name": "Richmond Connects 2023",
     "client": "Richmond Connects 2023",
     "type": "Other",
-    "themes": [],
+    "themes": [
+      "Other"
+    ],
     "year": "2023",
     "locality": "Richmond",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 37.5407,
-    "lon": -77.436,
-    "x": 900.8,
-    "y": 346.3
+    "x": 908.0,
+    "y": 341.2
   },
   {
     "id": "p0053",
     "name": "Richmond, VA RIchmondConnects 2023",
     "client": "Richmond",
     "type": "Other",
-    "themes": [],
+    "themes": [
+      "Other"
+    ],
     "year": "2023",
     "locality": "Richmond",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 37.5407,
-    "lon": -77.436,
-    "x": 900.8,
-    "y": 346.3
+    "x": 908.0,
+    "y": 341.2
   },
   {
     "id": "p0054",
     "name": "Roanoke Valley TPO 2045 LRTP 2022",
     "client": "Roanoke Valley TPO",
     "type": "Other",
-    "themes": [],
+    "themes": [
+      "Other"
+    ],
     "year": "2045",
     "locality": "Roanoke",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 37.2709,
-    "lon": -79.9414,
-    "x": 857.9,
-    "y": 360.5
+    "x": 864.4,
+    "y": 355.6
   },
   {
     "id": "p0055",
@@ -906,10 +842,8 @@
     "locality": "Salisbury",
     "state": "NC",
     "stateName": "North Carolina",
-    "lat": 35.6709,
-    "lon": -80.4742,
-    "x": 854.4,
-    "y": 398.1
+    "x": 860.9,
+    "y": 393.8
   },
   {
     "id": "p0056",
@@ -924,25 +858,23 @@
     "locality": "Shenandoah County",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 38.8587,
-    "lon": -78.57,
-    "x": 875.4,
-    "y": 320.6
+    "x": 882.2,
+    "y": 314.9
   },
   {
     "id": "p0057",
     "name": "Shenandoah Valley Rail Trail 2025",
     "client": "Shenandoah Valley Rail Trail 2025",
     "type": "Other",
-    "themes": [],
+    "themes": [
+      "Other"
+    ],
     "year": "2025",
     "locality": "Shenandoah Valley",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 38.4496,
-    "lon": -78.8689,
-    "x": 872.0,
-    "y": 330.7
+    "x": 878.7,
+    "y": 325.3
   },
   {
     "id": "p0058",
@@ -957,10 +889,8 @@
     "locality": "Henrico County",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 37.5059,
-    "lon": -77.3324,
-    "x": 902.7,
-    "y": 346.8
+    "x": 910.0,
+    "y": 341.6
   },
   {
     "id": "p0059",
@@ -974,10 +904,8 @@
     "locality": "Springfield",
     "state": "IL",
     "stateName": "Illinois",
-    "lat": 39.7817,
-    "lon": -89.6501,
-    "x": 681.7,
-    "y": 323.7
+    "x": 685.2,
+    "y": 318.2
   },
   {
     "id": "p0060",
@@ -992,10 +920,8 @@
     "locality": "Staunton",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 38.1496,
-    "lon": -79.0717,
-    "x": 869.7,
-    "y": 338.1
+    "x": 876.4,
+    "y": 332.8
   },
   {
     "id": "p0061",
@@ -1009,25 +935,23 @@
     "locality": "Staunton",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 38.1496,
-    "lon": -79.0717,
-    "x": 869.7,
-    "y": 338.1
+    "x": 876.4,
+    "y": 332.8
   },
   {
     "id": "p0062",
     "name": "Staunton, VA Uniontown 2023",
     "client": "Staunton",
     "type": "Other",
-    "themes": [],
+    "themes": [
+      "Other"
+    ],
     "year": "2023",
     "locality": "Staunton",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 38.1496,
-    "lon": -79.0717,
-    "x": 869.7,
-    "y": 338.1
+    "x": 876.4,
+    "y": 332.8
   },
   {
     "id": "p0063",
@@ -1042,25 +966,23 @@
     "locality": "Waynesboro",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 38.0685,
-    "lon": -78.8895,
-    "x": 873.2,
-    "y": 339.3
+    "x": 879.9,
+    "y": 334.0
   },
   {
     "id": "p0064",
     "name": "Waynesboro, VA Port Republic 2022",
     "client": "Waynesboro",
     "type": "Other",
-    "themes": [],
+    "themes": [
+      "Other"
+    ],
     "year": "2022",
     "locality": "Waynesboro",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 38.0685,
-    "lon": -78.8895,
-    "x": 873.2,
-    "y": 339.3
+    "x": 879.9,
+    "y": 334.0
   },
   {
     "id": "p0065",
@@ -1075,25 +997,23 @@
     "locality": "Wicomico County",
     "state": "MD",
     "stateName": "Maryland",
-    "lat": 38.3673,
-    "lon": -75.6325,
-    "x": 928.2,
-    "y": 321.4
+    "x": 935.9,
+    "y": 315.8
   },
   {
     "id": "p0066",
     "name": "Winchester, VA Bike Share 2022",
     "client": "Winchester",
     "type": "Other",
-    "themes": [],
+    "themes": [
+      "Other"
+    ],
     "year": "2022",
     "locality": "Winchester",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 39.1857,
-    "lon": -78.1633,
-    "x": 881.0,
-    "y": 311.9
+    "x": 887.9,
+    "y": 306.2
   },
   {
     "id": "p0067",
@@ -1108,10 +1028,8 @@
     "locality": "Winchester",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 39.1857,
-    "lon": -78.1633,
-    "x": 881.0,
-    "y": 311.9
+    "x": 887.9,
+    "y": 306.2
   },
   {
     "id": "p0068",
@@ -1126,10 +1044,8 @@
     "locality": "Winchester",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 39.1857,
-    "lon": -78.1633,
-    "x": 881.0,
-    "y": 311.9
+    "x": 887.9,
+    "y": 306.2
   },
   {
     "id": "p0069",
@@ -1146,10 +1062,8 @@
     "locality": "Evansville",
     "state": "IN",
     "stateName": "Indiana",
-    "lat": 37.9716,
-    "lon": -87.5711,
-    "x": 721.1,
-    "y": 362.1
+    "x": 725.3,
+    "y": 357.2
   },
   {
     "id": "p0070",
@@ -1166,10 +1080,8 @@
     "locality": "Springfield",
     "state": "IL",
     "stateName": "Illinois",
-    "lat": 39.7817,
-    "lon": -89.6501,
-    "x": 681.7,
-    "y": 323.7
+    "x": 685.2,
+    "y": 318.2
   },
   {
     "id": "p0071",
@@ -1186,10 +1098,8 @@
     "locality": "York",
     "state": "NE",
     "stateName": "Nebraska",
-    "lat": 40.8681,
-    "lon": -97.592,
-    "x": 544.9,
-    "y": 302.4
+    "x": 546.1,
+    "y": 296.5
   },
   {
     "id": "p0072",
@@ -1206,10 +1116,8 @@
     "locality": "Fayette",
     "state": "AL",
     "stateName": "Alabama",
-    "lat": 33.6846,
-    "lon": -87.8309,
-    "x": 725.0,
-    "y": 459.9
+    "x": 729.2,
+    "y": 456.6
   },
   {
     "id": "p0073",
@@ -1226,10 +1134,8 @@
     "locality": "Salisbury",
     "state": "NC",
     "stateName": "North Carolina",
-    "lat": 35.6709,
-    "lon": -80.4742,
-    "x": 854.4,
-    "y": 398.1
+    "x": 860.9,
+    "y": 393.8
   },
   {
     "id": "p0074",
@@ -1246,10 +1152,8 @@
     "locality": "Vicksburg",
     "state": "MS",
     "stateName": "Mississippi",
-    "lat": 32.3526,
-    "lon": -90.8779,
-    "x": 669.6,
-    "y": 494.1
+    "x": 672.9,
+    "y": 491.4
   },
   {
     "id": "p0075",
@@ -1266,10 +1170,8 @@
     "locality": "Poughkeepsie",
     "state": "NY",
     "stateName": "New York",
-    "lat": 41.7004,
-    "lon": -73.921,
-    "x": 940.1,
-    "y": 240.7
+    "x": 948.0,
+    "y": 233.7
   },
   {
     "id": "p0076",
@@ -1286,10 +1188,8 @@
     "locality": "Johnstown",
     "state": "PA",
     "stateName": "Pennsylvania",
-    "lat": 40.3267,
-    "lon": -78.9219,
-    "x": 863.4,
-    "y": 288.7
+    "x": 870.0,
+    "y": 282.6
   },
   {
     "id": "p0077",
@@ -1306,10 +1206,8 @@
     "locality": "Pelican Rapids",
     "state": "MN",
     "stateName": "Minnesota",
-    "lat": 46.5708,
-    "lon": -96.0831,
-    "x": 570.7,
-    "y": 173.1
+    "x": 572.3,
+    "y": 165.0
   },
   {
     "id": "p0078",
@@ -1326,10 +1224,8 @@
     "locality": "Harrisburg",
     "state": "PA",
     "stateName": "Pennsylvania",
-    "lat": 40.2732,
-    "lon": -76.8867,
-    "x": 897.9,
-    "y": 283.3
+    "x": 905.1,
+    "y": 277.1
   },
   {
     "id": "p0079",
@@ -1346,10 +1242,8 @@
     "locality": "Opelousas",
     "state": "LA",
     "stateName": "Louisiana",
-    "lat": 30.5335,
-    "lon": -92.0815,
-    "x": 648.4,
-    "y": 536.4
+    "x": 651.3,
+    "y": 534.4
   },
   {
     "id": "p0080",
@@ -1366,10 +1260,8 @@
     "locality": "Woonsocket",
     "state": "RI",
     "stateName": "Rhode Island",
-    "lat": 42.0029,
-    "lon": -71.5148,
-    "x": 977.7,
-    "y": 224.2
+    "x": 986.2,
+    "y": 216.9
   },
   {
     "id": "p0081",
@@ -1386,10 +1278,8 @@
     "locality": "Cottage Grove",
     "state": "OR",
     "stateName": "Oregon",
-    "lat": 43.7976,
-    "lon": -123.0595,
-    "x": 136.2,
-    "y": 173.5
+    "x": 130.5,
+    "y": 165.3
   },
   {
     "id": "p0082",
@@ -1406,10 +1296,8 @@
     "locality": "North Lake Charles",
     "state": "LA",
     "stateName": "Louisiana",
-    "lat": 30.2529,
-    "lon": -93.2174,
-    "x": 626.4,
-    "y": 543.5
+    "x": 629.0,
+    "y": 541.7
   },
   {
     "id": "p0083",
@@ -1426,10 +1314,8 @@
     "locality": "Kansas City",
     "state": "MO",
     "stateName": "Missouri",
-    "lat": 39.0997,
-    "lon": -94.5786,
-    "x": 596.8,
-    "y": 342.8
+    "x": 598.9,
+    "y": 337.5
   },
   {
     "id": "p0084",
@@ -1446,10 +1332,8 @@
     "locality": "Charlottesville",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 38.0293,
-    "lon": -78.4767,
-    "x": 880.5,
-    "y": 338.9
+    "x": 887.4,
+    "y": 333.6
   },
   {
     "id": "p0085",
@@ -1466,10 +1350,8 @@
     "locality": "Pulaski",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 37.0479,
-    "lon": -80.7798,
-    "x": 843.9,
-    "y": 368.0
+    "x": 850.2,
+    "y": 363.2
   },
   {
     "id": "p0086",
@@ -1486,10 +1368,8 @@
     "locality": "Cambridge",
     "state": "NY",
     "stateName": "New York",
-    "lat": 43.0281,
-    "lon": -73.3812,
-    "x": 941.8,
-    "y": 209.2
+    "x": 949.8,
+    "y": 201.7
   },
   {
     "id": "p0087",
@@ -1506,10 +1386,8 @@
     "locality": "Fryeburg",
     "state": "ME",
     "stateName": "Maine",
-    "lat": 44.0165,
-    "lon": -70.9806,
-    "x": 974.4,
-    "y": 177.7
+    "x": 982.9,
+    "y": 169.6
   },
   {
     "id": "p0088",
@@ -1526,10 +1404,8 @@
     "locality": "Giles County",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 37.3315,
-    "lon": -80.7351,
-    "x": 843.7,
-    "y": 361.5
+    "x": 849.9,
+    "y": 356.5
   },
   {
     "id": "p0089",
@@ -1546,10 +1422,8 @@
     "locality": "Glenwood Springs",
     "state": "CO",
     "stateName": "Colorado",
-    "lat": 39.5505,
-    "lon": -107.3248,
-    "x": 376.0,
-    "y": 321.0
+    "x": 374.4,
+    "y": 315.4
   },
   {
     "id": "p0090",
@@ -1566,10 +1440,8 @@
     "locality": "Gorham",
     "state": "NH",
     "stateName": "New Hampshire",
-    "lat": 44.3878,
-    "lon": -71.1731,
-    "x": 969.2,
-    "y": 170.3
+    "x": 977.6,
+    "y": 162.2
   },
   {
     "id": "p0091",
@@ -1586,10 +1458,8 @@
     "locality": "Grants",
     "state": "NM",
     "stateName": "New Mexico",
-    "lat": 35.1473,
-    "lon": -107.8514,
-    "x": 354.5,
-    "y": 419.6
+    "x": 352.5,
+    "y": 415.6
   },
   {
     "id": "p0092",
@@ -1606,10 +1476,8 @@
     "locality": "Jasper",
     "state": "AL",
     "stateName": "Alabama",
-    "lat": 33.8312,
-    "lon": -87.2775,
-    "x": 735.0,
-    "y": 455.6
+    "x": 739.4,
+    "y": 452.3
   },
   {
     "id": "p0093",
@@ -1626,10 +1494,8 @@
     "locality": "John Day",
     "state": "OR",
     "stateName": "Oregon",
-    "lat": 44.4165,
-    "lon": -118.953,
-    "x": 204.3,
-    "y": 177.2
+    "x": 199.7,
+    "y": 169.2
   },
   {
     "id": "p0094",
@@ -1646,10 +1512,8 @@
     "locality": "Poultney",
     "state": "VT",
     "stateName": "Vermont",
-    "lat": 43.517,
-    "lon": -73.2362,
-    "x": 941.5,
-    "y": 197.8
+    "x": 949.5,
+    "y": 190.1
   },
   {
     "id": "p0095",
@@ -1666,10 +1530,8 @@
     "locality": "Thompson Falls",
     "state": "MT",
     "stateName": "Montana",
-    "lat": 47.5966,
-    "lon": -115.3435,
-    "x": 275.8,
-    "y": 119.7
+    "x": 272.4,
+    "y": 110.7
   },
   {
     "id": "p0096",
@@ -1686,10 +1548,8 @@
     "locality": "Akwesasne",
     "state": "NY",
     "stateName": "New York",
-    "lat": 44.9731,
-    "lon": -74.6624,
-    "x": 911.4,
-    "y": 171.0
+    "x": 918.8,
+    "y": 162.8
   },
   {
     "id": "p0097",
@@ -1706,10 +1566,8 @@
     "locality": "Austin",
     "state": "MN",
     "stateName": "Minnesota",
-    "lat": 43.6666,
-    "lon": -92.9746,
-    "x": 621.4,
-    "y": 238.1
+    "x": 624.0,
+    "y": 231.1
   },
   {
     "id": "p0098",
@@ -1726,10 +1584,8 @@
     "locality": "Cheyenne",
     "state": "WY",
     "stateName": "Wyoming",
-    "lat": 41.14,
-    "lon": -104.8202,
-    "x": 422.6,
-    "y": 289.5
+    "x": 421.7,
+    "y": 283.3
   },
   {
     "id": "p0099",
@@ -1746,10 +1602,8 @@
     "locality": "Chiloquin",
     "state": "OR",
     "stateName": "Oregon",
-    "lat": 42.5776,
-    "lon": -121.8667,
-    "x": 147.5,
-    "y": 205.5
+    "x": 141.9,
+    "y": 198.0
   },
   {
     "id": "p0100",
@@ -1766,10 +1620,8 @@
     "locality": "Jennings",
     "state": "MO",
     "stateName": "Missouri",
-    "lat": 38.7192,
-    "lon": -90.2604,
-    "x": 672.6,
-    "y": 348.6
+    "x": 676.0,
+    "y": 343.5
   },
   {
     "id": "p0101",
@@ -1786,10 +1638,8 @@
     "locality": "Mandan",
     "state": "ND",
     "stateName": "North Dakota",
-    "lat": 46.8267,
-    "lon": -100.8896,
-    "x": 495.7,
-    "y": 165.4
+    "x": 496.1,
+    "y": 157.1
   },
   {
     "id": "p0102",
@@ -1806,10 +1656,8 @@
     "locality": "Manitowoc",
     "state": "WI",
     "stateName": "Wisconsin",
-    "lat": 44.0886,
-    "lon": -87.6576,
-    "x": 707.4,
-    "y": 223.4
+    "x": 711.4,
+    "y": 216.1
   },
   {
     "id": "p0103",
@@ -1826,10 +1674,8 @@
     "locality": "Palouse",
     "state": "WA",
     "stateName": "Washington",
-    "lat": 46.9102,
-    "lon": -117.0757,
-    "x": 246.3,
-    "y": 129.2
+    "x": 242.4,
+    "y": 120.3
   },
   {
     "id": "p0104",
@@ -1846,10 +1692,8 @@
     "locality": "Passamaquoddy",
     "state": "ME",
     "stateName": "Maine",
-    "lat": 45.14,
-    "lon": -67.0,
-    "x": 1028.9,
-    "y": 135.2
+    "x": 1038.3,
+    "y": 126.4
   },
   {
     "id": "p0105",
@@ -1866,10 +1710,8 @@
     "locality": "Pittsburgh",
     "state": "PA",
     "stateName": "Pennsylvania",
-    "lat": 40.4406,
-    "lon": -79.9959,
-    "x": 844.8,
-    "y": 289.3
+    "x": 851.1,
+    "y": 283.2
   },
   {
     "id": "p0106",
@@ -1886,10 +1728,8 @@
     "locality": "Spring City",
     "state": "TN",
     "stateName": "Tennessee",
-    "lat": 35.692,
-    "lon": -84.8608,
-    "x": 775.0,
-    "y": 408.8
+    "x": 780.1,
+    "y": 404.7
   },
   {
     "id": "p0107",
@@ -1906,10 +1746,8 @@
     "locality": "Sutton",
     "state": "WV",
     "stateName": "West Virginia",
-    "lat": 38.6645,
-    "lon": -80.7098,
-    "x": 839.2,
-    "y": 331.4
+    "x": 845.4,
+    "y": 325.9
   },
   {
     "id": "p0108",
@@ -1926,10 +1764,8 @@
     "locality": "Bangor",
     "state": "ME",
     "stateName": "Maine",
-    "lat": 44.8016,
-    "lon": -68.7712,
-    "x": 1003.9,
-    "y": 150.8
+    "x": 1012.9,
+    "y": 142.3
   },
   {
     "id": "p0109",
@@ -1946,10 +1782,8 @@
     "locality": "Brunswick",
     "state": "MD",
     "stateName": "Maryland",
-    "lat": 39.3143,
-    "lon": -77.6278,
-    "x": 889.6,
-    "y": 307.3
+    "x": 896.7,
+    "y": 301.4
   },
   {
     "id": "p0110",
@@ -1966,10 +1800,8 @@
     "locality": "Butte",
     "state": "MT",
     "stateName": "Montana",
-    "lat": 46.0038,
-    "lon": -112.5348,
-    "x": 312.1,
-    "y": 163.2
+    "x": 309.3,
+    "y": 155.0
   },
   {
     "id": "p0111",
@@ -1986,10 +1818,8 @@
     "locality": "Claremont",
     "state": "NH",
     "stateName": "New Hampshire",
-    "lat": 43.3767,
-    "lon": -72.3468,
-    "x": 956.5,
-    "y": 197.4
+    "x": 964.6,
+    "y": 189.7
   },
   {
     "id": "p0112",
@@ -2006,10 +1836,8 @@
     "locality": "Fairfield County",
     "state": "SC",
     "stateName": "South Carolina",
-    "lat": 34.3957,
-    "lon": -81.1276,
-    "x": 847.2,
-    "y": 428.7
+    "x": 853.5,
+    "y": 424.9
   },
   {
     "id": "p0113",
@@ -2026,10 +1854,8 @@
     "locality": "Granville",
     "state": "NY",
     "stateName": "New York",
-    "lat": 43.4073,
-    "lon": -73.2596,
-    "x": 941.7,
-    "y": 200.3
+    "x": 949.7,
+    "y": 192.7
   },
   {
     "id": "p0114",
@@ -2046,10 +1872,8 @@
     "locality": "Guadalupe",
     "state": "CA",
     "stateName": "California",
-    "lat": 34.9716,
-    "lon": -120.5718,
-    "x": 123.9,
-    "y": 378.9
+    "x": 118.0,
+    "y": 374.3
   },
   {
     "id": "p0115",
@@ -2066,9 +1890,7 @@
     "locality": "Haines",
     "state": "AK",
     "stateName": "Alaska",
-    "lat": 59.2358,
-    "lon": -135.445,
-    "x": 278.9,
+    "x": 283.4,
     "y": 714.3
   },
   {
@@ -2086,10 +1908,8 @@
     "locality": "Marshfield",
     "state": "VT",
     "stateName": "Vermont",
-    "lat": 44.3517,
-    "lon": -72.3526,
-    "x": 950.9,
-    "y": 175.9
+    "x": 959.0,
+    "y": 167.9
   },
   {
     "id": "p0117",
@@ -2106,10 +1926,8 @@
     "locality": "Monte Vista",
     "state": "CO",
     "stateName": "Colorado",
-    "lat": 37.5792,
-    "lon": -106.1481,
-    "x": 391.5,
-    "y": 368.0
+    "x": 390.1,
+    "y": 363.2
   },
   {
     "id": "p0118",
@@ -2126,10 +1944,8 @@
     "locality": "Quincy",
     "state": "CA",
     "stateName": "California",
-    "lat": 39.9368,
-    "lon": -120.9472,
-    "x": 146.6,
-    "y": 267.7
+    "x": 141.0,
+    "y": 261.2
   },
   {
     "id": "p0119",
@@ -2146,10 +1962,8 @@
     "locality": "Yreka",
     "state": "CA",
     "stateName": "California",
-    "lat": 41.7354,
-    "lon": -122.6345,
-    "x": 129.9,
-    "y": 220.5
+    "x": 124.1,
+    "y": 213.2
   },
   {
     "id": "p0120",
@@ -2166,10 +1980,8 @@
     "locality": "Columbiana",
     "state": "AL",
     "stateName": "Alabama",
-    "lat": 33.1782,
-    "lon": -86.6072,
-    "x": 748.9,
-    "y": 469.2
+    "x": 753.6,
+    "y": 466.1
   },
   {
     "id": "p0121",
@@ -2186,10 +1998,8 @@
     "locality": "Hartwell",
     "state": "GA",
     "stateName": "Georgia",
-    "lat": 34.3529,
-    "lon": -82.9321,
-    "x": 814.1,
-    "y": 434.6
+    "x": 819.9,
+    "y": 430.9
   },
   {
     "id": "p0122",
@@ -2206,10 +2016,8 @@
     "locality": "Jenkins",
     "state": "KY",
     "stateName": "Kentucky",
-    "lat": 37.1734,
-    "lon": -82.6307,
-    "x": 810.7,
-    "y": 370.1
+    "x": 816.4,
+    "y": 365.3
   },
   {
     "id": "p0123",
@@ -2226,10 +2034,8 @@
     "locality": "McKee",
     "state": "KY",
     "stateName": "Kentucky",
-    "lat": 37.4304,
-    "lon": -83.9977,
-    "x": 785.7,
-    "y": 367.6
+    "x": 790.9,
+    "y": 362.7
   },
   {
     "id": "p0124",
@@ -2246,10 +2052,8 @@
     "locality": "Salamanca",
     "state": "NY",
     "stateName": "New York",
-    "lat": 42.1578,
-    "lon": -78.715,
-    "x": 859.3,
-    "y": 247.0
+    "x": 865.9,
+    "y": 240.2
   },
   {
     "id": "p0125",
@@ -2266,10 +2070,8 @@
     "locality": "Beverly",
     "state": "OH",
     "stateName": "Ohio",
-    "lat": 39.5478,
-    "lon": -81.6396,
-    "x": 820.1,
-    "y": 314.0
+    "x": 825.9,
+    "y": 308.2
   },
   {
     "id": "p0126",
@@ -2286,10 +2088,8 @@
     "locality": "Coshocton",
     "state": "OH",
     "stateName": "Ohio",
-    "lat": 40.272,
-    "lon": -81.8596,
-    "x": 813.8,
-    "y": 298.2
+    "x": 819.6,
+    "y": 292.2
   },
   {
     "id": "p0127",
@@ -2306,10 +2106,8 @@
     "locality": "Lawrence County",
     "state": "OH",
     "stateName": "Ohio",
-    "lat": 38.6039,
-    "lon": -82.5179,
-    "x": 808.0,
-    "y": 337.5
+    "x": 813.7,
+    "y": 332.2
   },
   {
     "id": "p0128",
@@ -2326,10 +2124,8 @@
     "locality": "Clairfield",
     "state": "TN",
     "stateName": "Tennessee",
-    "lat": 36.5509,
-    "lon": -83.9558,
-    "x": 788.9,
-    "y": 387.4
+    "x": 794.3,
+    "y": 382.9
   },
   {
     "id": "p0129",
@@ -2346,10 +2142,8 @@
     "locality": "Buchanan",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 37.5276,
-    "lon": -79.6798,
-    "x": 861.5,
-    "y": 353.9
+    "x": 868.1,
+    "y": 348.9
   },
   {
     "id": "p0130",
@@ -2366,10 +2160,8 @@
     "locality": "Buena Vista",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 37.7343,
-    "lon": -79.3539,
-    "x": 866.4,
-    "y": 348.3
+    "x": 873.1,
+    "y": 343.1
   },
   {
     "id": "p0131",
@@ -2386,10 +2178,8 @@
     "locality": "Fayetteville",
     "state": "WV",
     "stateName": "West Virginia",
-    "lat": 38.0529,
-    "lon": -81.1037,
-    "x": 834.6,
-    "y": 346.2
+    "x": 840.7,
+    "y": 341.1
   },
   {
     "id": "p0132",
@@ -2406,10 +2196,8 @@
     "locality": "Chattanooga",
     "state": "TN",
     "stateName": "Tennessee",
-    "lat": 35.0456,
-    "lon": -85.3097,
-    "x": 768.5,
-    "y": 424.4
+    "x": 773.5,
+    "y": 420.5
   },
   {
     "id": "p0133",
@@ -2426,9 +2214,7 @@
     "locality": "Culebra",
     "state": "PR",
     "stateName": "Puerto Rico",
-    "lat": 18.3104,
-    "lon": -65.3031,
-    "x": 924.9,
+    "x": 922.9,
     "y": 697.9
   },
   {
@@ -2446,10 +2232,8 @@
     "locality": "East St. Louis",
     "state": "IL",
     "stateName": "Illinois",
-    "lat": 38.6245,
-    "lon": -90.1509,
-    "x": 674.6,
-    "y": 350.7
+    "x": 678.1,
+    "y": 345.5
   },
   {
     "id": "p0135",
@@ -2466,10 +2250,8 @@
     "locality": "Fort Collins",
     "state": "CO",
     "stateName": "Colorado",
-    "lat": 40.5853,
-    "lon": -105.0844,
-    "x": 416.9,
-    "y": 301.7
+    "x": 416.0,
+    "y": 295.7
   },
   {
     "id": "p0136",
@@ -2486,10 +2268,8 @@
     "locality": "Jefferson City",
     "state": "MO",
     "stateName": "Missouri",
-    "lat": 38.5767,
-    "lon": -92.1735,
-    "x": 639.2,
-    "y": 353.6
+    "x": 642.0,
+    "y": 348.5
   },
   {
     "id": "p0137",
@@ -2506,10 +2286,8 @@
     "locality": "Jersey City",
     "state": "NJ",
     "stateName": "New Jersey",
-    "lat": 40.7178,
-    "lon": -74.0431,
-    "x": 943.3,
-    "y": 263.0
+    "x": 951.2,
+    "y": 256.4
   },
   {
     "id": "p0138",
@@ -2526,10 +2304,8 @@
     "locality": "Las Vegas",
     "state": "NV",
     "stateName": "Nevada",
-    "lat": 36.1716,
-    "lon": -115.1391,
-    "x": 226.9,
-    "y": 374.9
+    "x": 222.7,
+    "y": 370.2
   },
   {
     "id": "p0139",
@@ -2546,10 +2322,8 @@
     "locality": "New Bedford",
     "state": "MA",
     "stateName": "Massachusetts",
-    "lat": 41.6362,
-    "lon": -70.9342,
-    "x": 989.2,
-    "y": 229.8
+    "x": 998.0,
+    "y": 222.6
   },
   {
     "id": "p0140",
@@ -2566,10 +2340,8 @@
     "locality": "Norfolk",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 36.8508,
-    "lon": -76.2859,
-    "x": 924.1,
-    "y": 357.6
+    "x": 931.7,
+    "y": 352.7
   },
   {
     "id": "p0141",
@@ -2586,10 +2358,8 @@
     "locality": "Sacramento",
     "state": "CA",
     "stateName": "California",
-    "lat": 38.5816,
-    "lon": -121.4944,
-    "x": 129.3,
-    "y": 295.1
+    "x": 123.4,
+    "y": 289.0
   },
   {
     "id": "p0142",
@@ -2606,10 +2376,8 @@
     "locality": "Tulsa",
     "state": "OK",
     "stateName": "Oklahoma",
-    "lat": 36.154,
-    "lon": -95.9928,
-    "x": 572.1,
-    "y": 410.2
+    "x": 573.8,
+    "y": 406.1
   },
   {
     "id": "p0143",
@@ -2626,10 +2394,8 @@
     "locality": "Unincorporated King County",
     "state": "WA",
     "stateName": "Washington",
-    "lat": 47.548,
-    "lon": -121.9836,
-    "x": 176.0,
-    "y": 96.6
+    "x": 171.0,
+    "y": 87.2
   },
   {
     "id": "p0144",
@@ -2646,10 +2412,8 @@
     "locality": "Wyandotte Nation",
     "state": "OK",
     "stateName": "Oklahoma",
-    "lat": 36.7934,
-    "lon": -94.7255,
-    "x": 594.9,
-    "y": 395.5
+    "x": 597.0,
+    "y": 391.1
   },
   {
     "id": "p0145",
@@ -2666,10 +2430,8 @@
     "locality": "Atlanta",
     "state": "GA",
     "stateName": "Georgia",
-    "lat": 33.749,
-    "lon": -84.388,
-    "x": 789.0,
-    "y": 451.7
+    "x": 794.3,
+    "y": 448.3
   },
   {
     "id": "p0146",
@@ -2686,10 +2448,8 @@
     "locality": "Baltimore",
     "state": "MD",
     "stateName": "Maryland",
-    "lat": 39.2904,
-    "lon": -76.6122,
-    "x": 907.1,
-    "y": 304.3
+    "x": 914.4,
+    "y": 298.4
   },
   {
     "id": "p0147",
@@ -2706,10 +2466,8 @@
     "locality": "Fort Wayne",
     "state": "IN",
     "stateName": "Indiana",
-    "lat": 41.0793,
-    "lon": -85.1394,
-    "x": 755.9,
-    "y": 287.3
+    "x": 760.7,
+    "y": 281.1
   },
   {
     "id": "p0148",
@@ -2726,10 +2484,8 @@
     "locality": "Portland",
     "state": "OR",
     "stateName": "Oregon",
-    "lat": 45.5152,
-    "lon": -122.6784,
-    "x": 153.0,
-    "y": 137.8
+    "x": 147.5,
+    "y": 129.0
   },
   {
     "id": "p0149",
@@ -2746,10 +2502,8 @@
     "locality": "Toledo",
     "state": "OH",
     "stateName": "Ohio",
-    "lat": 41.6528,
-    "lon": -83.5379,
-    "x": 781.2,
-    "y": 271.0
+    "x": 786.4,
+    "y": 264.5
   },
   {
     "id": "p0150",
@@ -2766,10 +2520,8 @@
     "locality": "Belmont County",
     "state": "OH",
     "stateName": "Ohio",
-    "lat": 40.0177,
-    "lon": -80.9677,
-    "x": 829.9,
-    "y": 301.6
+    "x": 835.9,
+    "y": 295.6
   },
   {
     "id": "p0151",
@@ -2786,10 +2538,8 @@
     "locality": "Columbia",
     "state": "LA",
     "stateName": "Louisiana",
-    "lat": 32.1057,
-    "lon": -92.0776,
-    "x": 647.0,
-    "y": 500.8
+    "x": 649.9,
+    "y": 498.2
   },
   {
     "id": "p0152",
@@ -2806,10 +2556,8 @@
     "locality": "Douglas",
     "state": "AZ",
     "stateName": "Arizona",
-    "lat": 31.3445,
-    "lon": -109.5453,
-    "x": 311.3,
-    "y": 501.0
+    "x": 308.6,
+    "y": 498.4
   },
   {
     "id": "p0153",
@@ -2826,10 +2574,8 @@
     "locality": "Floyd County",
     "state": "KY",
     "stateName": "Kentucky",
-    "lat": 37.5455,
-    "lon": -82.7779,
-    "x": 806.9,
-    "y": 362.1
+    "x": 812.5,
+    "y": 357.2
   },
   {
     "id": "p0154",
@@ -2846,10 +2592,8 @@
     "locality": "Junction City",
     "state": "KS",
     "stateName": "Kansas",
-    "lat": 39.0286,
-    "lon": -96.8314,
-    "x": 557.5,
-    "y": 344.5
+    "x": 558.9,
+    "y": 339.3
   },
   {
     "id": "p0155",
@@ -2866,10 +2610,8 @@
     "locality": "Kernville",
     "state": "CA",
     "stateName": "California",
-    "lat": 35.7547,
-    "lon": -118.4254,
-    "x": 166.4,
-    "y": 371.2
+    "x": 161.2,
+    "y": 366.5
   },
   {
     "id": "p0156",
@@ -2886,10 +2628,8 @@
     "locality": "Noxubee County",
     "state": "MS",
     "stateName": "Mississippi",
-    "lat": 33.1104,
-    "lon": -88.5692,
-    "x": 712.2,
-    "y": 474.0
+    "x": 716.2,
+    "y": 471.0
   },
   {
     "id": "p0157",
@@ -2906,10 +2646,8 @@
     "locality": "Oil Region",
     "state": "PA",
     "stateName": "Pennsylvania",
-    "lat": 41.4339,
-    "lon": -79.7064,
-    "x": 845.8,
-    "y": 266.2
+    "x": 852.1,
+    "y": 259.6
   },
   {
     "id": "p0158",
@@ -2926,10 +2664,8 @@
     "locality": "Pendleton County",
     "state": "WV",
     "stateName": "West Virginia",
-    "lat": 38.6926,
-    "lon": -79.3517,
-    "x": 862.6,
-    "y": 326.7
+    "x": 869.2,
+    "y": 321.2
   },
   {
     "id": "p0159",
@@ -2946,10 +2682,8 @@
     "locality": "Powell",
     "state": "WY",
     "stateName": "Wyoming",
-    "lat": 44.7538,
-    "lon": -108.7574,
-    "x": 367.3,
-    "y": 200.5
+    "x": 365.5,
+    "y": 192.8
   },
   {
     "id": "p0160",
@@ -2966,10 +2700,8 @@
     "locality": "Spruce Pine",
     "state": "NC",
     "stateName": "North Carolina",
-    "lat": 35.9154,
-    "lon": -82.0646,
-    "x": 824.9,
-    "y": 397.1
+    "x": 830.9,
+    "y": 392.7
   },
   {
     "id": "p0161",
@@ -2986,10 +2718,8 @@
     "locality": "St. Paul",
     "state": "VA",
     "stateName": "Virginia",
-    "lat": 36.9068,
-    "lon": -82.3115,
-    "x": 817.2,
-    "y": 375.3
+    "x": 823.0,
+    "y": 370.6
   },
   {
     "id": "p0162",
@@ -3006,10 +2736,8 @@
     "locality": "Two Rivers",
     "state": "WI",
     "stateName": "Wisconsin",
-    "lat": 44.1539,
-    "lon": -87.5692,
-    "x": 708.7,
-    "y": 221.8
+    "x": 712.7,
+    "y": 214.5
   },
   {
     "id": "p0163",
@@ -3023,10 +2751,8 @@
     "locality": "Port St. Lucie",
     "state": "FL",
     "stateName": "Florida",
-    "lat": 27.273049,
-    "lon": -80.358226,
-    "x": 887.7,
-    "y": 585.4
+    "x": 894.7,
+    "y": 584.3
   },
   {
     "id": "p0164",
@@ -3040,9 +2766,7 @@
     "locality": "Fort Pierce",
     "state": "FL",
     "stateName": "Florida",
-    "lat": 27.426112,
-    "lon": -80.342488,
-    "x": 887.4,
-    "y": 582.0
+    "x": 894.5,
+    "y": 580.8
   }
 ]
