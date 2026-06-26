@@ -1,9 +1,9 @@
 [
   {
-    "id": "abingdon comp plan 2023",
+    "id": "p0001",
     "name": "Abingdon Comp Plan 2023",
     "client": "Abingdon Comp Plan 2023",
-    "type": "Abingdon Comp Plan 2023",
+    "type": "Planning",
     "themes": [
       "comprehensive plan",
       "planning"
@@ -14,14 +14,14 @@
     "stateName": "Virginia",
     "lat": 36.7098,
     "lon": -81.9774,
-    "confidence": "place_lookup",
-    "summary": "Abingdon Comp Plan 2023 in Abingdon, VA"
+    "x": 823.8,
+    "y": 378.9
   },
   {
-    "id": "albemarle co transp eng cei cm term",
-    "name": "Albemarle Co Transp Eng   CEI CM Term",
-    "client": "Albemarle Co Transp Eng   CEI CM Term",
-    "type": "Albemarle Co Transp Eng   CEI CM Term",
+    "id": "p0002",
+    "name": "Albemarle Co Transp Eng CEI CM Term",
+    "client": "Albemarle Co Transp Eng CEI CM Term",
+    "type": "Engineering / Transportation",
     "themes": [
       "engineering",
       "engineering"
@@ -32,14 +32,14 @@
     "stateName": "Virginia",
     "lat": 38.0336,
     "lon": -78.508,
-    "confidence": "place_lookup",
-    "summary": "Albemarle Co Transp Eng   CEI CM Term in Albemarle County, VA"
+    "x": 879.9,
+    "y": 338.9
   },
   {
-    "id": "albemarle county three notched trail 2026",
+    "id": "p0003",
     "name": "Albemarle County Three Notched Trail 2026",
     "client": "Albemarle County Three Notched Trail 2026",
-    "type": "Albemarle County Three Notched Trail 2026",
+    "type": "Other",
     "themes": [],
     "year": "2026",
     "locality": "Albemarle County",
@@ -47,14 +47,14 @@
     "stateName": "Virginia",
     "lat": 38.0336,
     "lon": -78.508,
-    "confidence": "place_lookup",
-    "summary": "Albemarle County Three Notched Trail 2026 in Albemarle County, VA"
+    "x": 879.9,
+    "y": 338.9
   },
   {
-    "id": "albemarle county form based code 2025",
+    "id": "p0004",
     "name": "Albemarle County Form Based Code 2025",
     "client": "Albemarle County",
-    "type": "Form Based Code 2025",
+    "type": "Other",
     "themes": [],
     "year": "2025",
     "locality": "Albemarle County",
@@ -62,14 +62,14 @@
     "stateName": "Virginia",
     "lat": 38.0336,
     "lon": -78.508,
-    "confidence": "place_lookup",
-    "summary": "Albemarle County Form Based Code 2025 in Albemarle County, VA"
+    "x": 879.9,
+    "y": 338.9
   },
   {
-    "id": "albemarle va comprehensive plan 2023",
+    "id": "p0005",
     "name": "Albemarle, VA Comprehensive Plan 2023",
     "client": "Albemarle",
-    "type": "Comprehensive Plan",
+    "type": "Planning",
     "themes": [
       "comprehensive plan",
       "planning"
@@ -80,29 +80,31 @@
     "stateName": "Virginia",
     "lat": 38.0336,
     "lon": -78.508,
-    "confidence": "place_lookup",
-    "summary": "Albemarle, VA Comprehensive Plan 2023 in Albemarle County, VA"
+    "x": 879.9,
+    "y": 338.9
   },
   {
-    "id": "altavista bicycle and pedestrian plan 2023",
+    "id": "p0006",
     "name": "Altavista Bicycle and Pedestrian Plan 2023",
     "client": "Altavista Bicycle and Pedestrian Plan 2023",
-    "type": "Pedestrian",
-    "themes": [],
+    "type": "Planning",
+    "themes": [
+      "Planning"
+    ],
     "year": "2023",
     "locality": "Altavista",
     "state": "VA",
     "stateName": "Virginia",
     "lat": 37.1118,
     "lon": -79.2856,
-    "confidence": "place_lookup",
-    "summary": "Altavista Bicycle and Pedestrian Plan 2023 in Altavista, VA"
+    "x": 870.1,
+    "y": 362.1
   },
   {
-    "id": "appomattox old courthouse road area study 2023",
+    "id": "p0007",
     "name": "Appomattox Old Courthouse Road Area Study 2023",
     "client": "Appomattox Old Courthouse Road Area Study 2023",
-    "type": "Appomattox Old Courthouse Road Area Study 2023",
+    "type": "Other",
     "themes": [],
     "year": "2023",
     "locality": "Appomattox",
@@ -110,14 +112,14 @@
     "stateName": "Virginia",
     "lat": 37.3571,
     "lon": -78.8253,
-    "confidence": "place_lookup",
-    "summary": "Appomattox Old Courthouse Road Area Study 2023 in Appomattox, VA"
+    "x": 877.2,
+    "y": 355.1
   },
   {
-    "id": "arnett boulevard danville",
-    "name": "Arnett Boulevard   Danville",
-    "client": "Arnett Boulevard   Danville",
-    "type": "Arnett Boulevard   Danville",
+    "id": "p0008",
+    "name": "Arnett Boulevard Danville",
+    "client": "Arnett Boulevard Danville",
+    "type": "Other",
     "themes": [],
     "year": "",
     "locality": "Danville",
@@ -125,14 +127,14 @@
     "stateName": "Virginia",
     "lat": 36.5859,
     "lon": -79.395,
-    "confidence": "place_lookup",
-    "summary": "Arnett Boulevard   Danville in Danville, VA"
+    "x": 870.2,
+    "y": 374.2
   },
   {
-    "id": "ashland va comprehensive plan 2023",
+    "id": "p0009",
     "name": "Ashland, VA Comprehensive Plan 2023",
     "client": "Ashland",
-    "type": "Comprehensive Plan",
+    "type": "Planning",
     "themes": [
       "comprehensive plan",
       "planning"
@@ -143,14 +145,14 @@
     "stateName": "Virginia",
     "lat": 37.759,
     "lon": -77.479,
-    "confidence": "place_lookup",
-    "summary": "Ashland, VA Comprehensive Plan 2023 in Ashland, VA"
+    "x": 899.1,
+    "y": 341.6
   },
   {
-    "id": "bedford comprehensive plan 2025 ongoing",
+    "id": "p0010",
     "name": "Bedford Comprehensive Plan 2025 Ongoing",
     "client": "Bedford Comprehensive Plan 2025 Ongoing",
-    "type": "Comprehensive Plan",
+    "type": "Planning",
     "themes": [
       "comprehensive plan",
       "planning"
@@ -161,11 +163,11 @@
     "stateName": "Virginia",
     "lat": 37.3343,
     "lon": -79.5231,
-    "confidence": "place_lookup",
-    "summary": "Bedford Comprehensive Plan 2025 Ongoing in Bedford, VA"
+    "x": 865.0,
+    "y": 357.8
   },
   {
-    "id": "bedford va zoning 2024",
+    "id": "p0011",
     "name": "Bedford, VA Zoning 2024",
     "client": "Bedford",
     "type": "Zoning",
@@ -179,29 +181,31 @@
     "stateName": "Virginia",
     "lat": 37.3343,
     "lon": -79.5231,
-    "confidence": "place_lookup",
-    "summary": "Bedford, VA Zoning 2024 in Bedford, VA"
+    "x": 865.0,
+    "y": 357.8
   },
   {
-    "id": "blacksburg transit strategic plan 2024",
+    "id": "p0012",
     "name": "Blacksburg Transit Strategic Plan 2024",
     "client": "Blacksburg",
-    "type": "Transit",
-    "themes": [],
+    "type": "Planning",
+    "themes": [
+      "Planning"
+    ],
     "year": "2024",
     "locality": "Blacksburg",
     "state": "VA",
     "stateName": "Virginia",
     "lat": 37.2296,
     "lon": -80.4139,
-    "confidence": "place_lookup",
-    "summary": "Blacksburg Transit Strategic Plan 2024 in Blacksburg, VA"
+    "x": 849.7,
+    "y": 362.8
   },
   {
-    "id": "central virginia 2045 long range transportation plan 2023",
+    "id": "p0013",
     "name": "Central Virginia 2045 Long Range Transportation Plan 2023",
     "client": "Central Virginia 2045 Long Range Transportation Plan 2023",
-    "type": "Transportation Plan",
+    "type": "Engineering / Transportation",
     "themes": [
       "transportation",
       "engineering"
@@ -212,14 +216,14 @@
     "stateName": "Virginia",
     "lat": 37.4138,
     "lon": -79.1422,
-    "confidence": "place_lookup",
-    "summary": "Central Virginia 2045 Long Range Transportation Plan 2023 in Central Virginia, VA"
+    "x": 871.4,
+    "y": 354.8
   },
   {
-    "id": "central virginia mpo on call services feb 2023",
+    "id": "p0014",
     "name": "Central Virginia MPO On Call Services Feb 2023",
     "client": "Central Virginia MPO On Call Services Feb 2023",
-    "type": "On Call",
+    "type": "Planning",
     "themes": [
       "on call",
       "planning"
@@ -230,14 +234,14 @@
     "stateName": "Virginia",
     "lat": 37.4138,
     "lon": -79.1422,
-    "confidence": "place_lookup",
-    "summary": "Central Virginia MPO On Call Services Feb 2023 in Central Virginia, VA"
+    "x": 871.4,
+    "y": 354.8
   },
   {
-    "id": "charlotte neci feasability",
+    "id": "p0015",
     "name": "Charlotte NECI Feasability",
     "client": "Charlotte NECI Feasability",
-    "type": "Charlotte NECI Feasability",
+    "type": "Other",
     "themes": [],
     "year": "",
     "locality": "Charlotte",
@@ -245,14 +249,14 @@
     "stateName": "North Carolina",
     "lat": 35.2271,
     "lon": -80.8431,
-    "confidence": "place_lookup",
-    "summary": "Charlotte NECI Feasability in Charlotte, NC"
+    "x": 849.4,
+    "y": 409.2
   },
   {
-    "id": "charlottesville albemarle mpo 2050 lrtp 2024",
+    "id": "p0016",
     "name": "Charlottesville Albemarle MPO 2050 LRTP 2024",
     "client": "Charlottesville Albemarle MPO",
-    "type": "2050 LRTP 2024",
+    "type": "Other",
     "themes": [],
     "year": "2050",
     "locality": "Charlottesville",
@@ -260,14 +264,14 @@
     "stateName": "Virginia",
     "lat": 38.0293,
     "lon": -78.4767,
-    "confidence": "place_lookup",
-    "summary": "Charlottesville Albemarle MPO 2050 LRTP 2024 in Charlottesville, VA"
+    "x": 880.5,
+    "y": 338.9
   },
   {
-    "id": "charlottesville albemarle mpo transit vision 2022",
+    "id": "p0017",
     "name": "Charlottesville Albemarle MPO Transit Vision 2022",
     "client": "Charlottesville Albemarle MPO",
-    "type": "Transit",
+    "type": "Other",
     "themes": [],
     "year": "2022",
     "locality": "Charlottesville",
@@ -275,14 +279,14 @@
     "stateName": "Virginia",
     "lat": 38.0293,
     "lon": -78.4767,
-    "confidence": "place_lookup",
-    "summary": "Charlottesville Albemarle MPO Transit Vision 2022 in Charlottesville, VA"
+    "x": 880.5,
+    "y": 338.9
   },
   {
-    "id": "charlottesville civil and transportation on call services",
+    "id": "p0018",
     "name": "Charlottesville Civil and Transportation On Call Services",
     "client": "Charlottesville Civil and Transportation On Call Services",
-    "type": "On Call",
+    "type": "Engineering / Transportation",
     "themes": [
       "on call",
       "planning"
@@ -293,59 +297,65 @@
     "stateName": "Virginia",
     "lat": 38.0293,
     "lon": -78.4767,
-    "confidence": "place_lookup",
-    "summary": "Charlottesville Civil and Transportation On Call Services in Charlottesville, VA"
+    "x": 880.5,
+    "y": 338.9
   },
   {
-    "id": "chattanooga tn lflp 2022",
+    "id": "p0019",
     "name": "Chattanooga, TN LFLP 2022",
     "client": "Chattanooga",
-    "type": "TN LFLP 2022",
-    "themes": [],
+    "type": "EPA / Technical Assistance",
+    "themes": [
+      "EPA / Technical Assistance"
+    ],
     "year": "2022",
     "locality": "Chattanooga",
     "state": "TN",
     "stateName": "Tennessee",
     "lat": 35.0456,
     "lon": -85.3097,
-    "confidence": "place_lookup",
-    "summary": "Chattanooga, TN LFLP 2022 in Chattanooga, TN"
+    "x": 768.5,
+    "y": 424.4
   },
   {
-    "id": "duluth mn lflp 2019",
+    "id": "p0020",
     "name": "Duluth, MN LFLP 2019",
     "client": "Duluth",
-    "type": "MN LFLP 2019",
-    "themes": [],
+    "type": "EPA / Technical Assistance",
+    "themes": [
+      "EPA / Technical Assistance"
+    ],
     "year": "2019",
     "locality": "Duluth",
     "state": "MN",
     "stateName": "Minnesota",
     "lat": 46.7867,
     "lon": -92.1005,
-    "confidence": "place_lookup",
-    "summary": "Duluth, MN LFLP 2019 in Duluth, MN"
+    "x": 632.8,
+    "y": 167.0
   },
   {
-    "id": "epa flood resilience texas 2021",
+    "id": "p0021",
     "name": "EPA Flood Resilience Texas 2021",
     "client": "EPA Flood Resilience",
-    "type": "Resilience",
-    "themes": [],
+    "type": "EPA / Technical Assistance",
+    "themes": [
+      "EPA / Technical Assistance"
+    ],
     "year": "2021",
     "locality": "Texas",
     "state": "TX",
     "stateName": "Texas",
     "lat": 31.0545,
     "lon": -97.5635,
-    "confidence": "place_lookup",
-    "summary": "EPA Flood Resilience Texas 2021 in Texas, TX"
+    "x": 541.7,
+    "y": 525.9
   },
   {
-    "id": "fauquier on call",
+    "id": "p0022",
     "name": "Fauquier On Call",
     "client": "Fauquier On Call",
-    "type": "Fauquier On Call",
+    "type": "Planning",
     "themes": [
       "on call",
       "planning"
@@ -356,14 +366,14 @@
     "stateName": "Virginia",
     "lat": 38.7441,
     "lon": -77.821,
-    "confidence": "place_lookup",
-    "summary": "Fauquier On Call in Fauquier County, VA"
+    "x": 888.8,
+    "y": 320.7
   },
   {
-    "id": "franklin va ferrum master plan 2023",
+    "id": "p0023",
     "name": "Franklin, VA Ferrum Master Plan 2023",
     "client": "Franklin",
-    "type": "Master Plan",
+    "type": "Planning",
     "themes": [
       "master plan",
       "planning"
@@ -374,14 +384,14 @@
     "stateName": "Virginia",
     "lat": 37.0,
     "lon": -79.8833,
-    "confidence": "place_lookup",
-    "summary": "Franklin, VA Ferrum Master Plan 2023 in Franklin County, VA"
+    "x": 860.0,
+    "y": 366.4
   },
   {
-    "id": "gap vinton 2021",
+    "id": "p0024",
     "name": "GAP Vinton 2021",
     "client": "GAP",
-    "type": "Vinton 2021",
+    "type": "Other",
     "themes": [],
     "year": "2021",
     "locality": "Vinton",
@@ -389,14 +399,14 @@
     "stateName": "Virginia",
     "lat": 37.2809,
     "lon": -79.8969,
-    "confidence": "place_lookup",
-    "summary": "GAP Vinton 2021 in Vinton, VA"
+    "x": 858.6,
+    "y": 360.1
   },
   {
-    "id": "hanover comprehensive plan 2023",
+    "id": "p0025",
     "name": "Hanover Comprehensive Plan 2023",
     "client": "Hanover",
-    "type": "Comprehensive Plan",
+    "type": "Planning",
     "themes": [
       "comprehensive plan",
       "planning"
@@ -407,14 +417,14 @@
     "stateName": "Virginia",
     "lat": 37.7601,
     "lon": -77.49,
-    "confidence": "place_lookup",
-    "summary": "Hanover Comprehensive Plan 2023 in Hanover County, VA"
+    "x": 898.9,
+    "y": 341.6
   },
   {
-    "id": "harrisonburg roadway reconfigurations",
+    "id": "p0026",
     "name": "Harrisonburg Roadway Reconfigurations",
     "client": "Harrisonburg Roadway Reconfigurations",
-    "type": "Harrisonburg Roadway Reconfigurations",
+    "type": "Other",
     "themes": [],
     "year": "",
     "locality": "Harrisonburg",
@@ -422,11 +432,11 @@
     "stateName": "Virginia",
     "lat": 38.4496,
     "lon": -78.8689,
-    "confidence": "place_lookup",
-    "summary": "Harrisonburg Roadway Reconfigurations in Harrisonburg, VA"
+    "x": 872.0,
+    "y": 330.7
   },
   {
-    "id": "harrisonburg va housing study 2021",
+    "id": "p0027",
     "name": "Harrisonburg, VA Housing Study 2021",
     "client": "Harrisonburg",
     "type": "Housing",
@@ -440,14 +450,14 @@
     "stateName": "Virginia",
     "lat": 38.4496,
     "lon": -78.8689,
-    "confidence": "place_lookup",
-    "summary": "Harrisonburg, VA Housing Study 2021 in Harrisonburg, VA"
+    "x": 872.0,
+    "y": 330.7
   },
   {
-    "id": "harrisonburg roadway reconfigurations 2025",
+    "id": "p0028",
     "name": "Harrisonburg Roadway Reconfigurations 2025",
     "client": "Harrisonburg",
-    "type": "Roadway Reconfigurations 2025",
+    "type": "Other",
     "themes": [],
     "year": "2025",
     "locality": "Harrisonburg",
@@ -455,14 +465,14 @@
     "stateName": "Virginia",
     "lat": 38.4496,
     "lon": -78.8689,
-    "confidence": "place_lookup",
-    "summary": "Harrisonburg Roadway Reconfigurations 2025 in Harrisonburg, VA"
+    "x": 872.0,
+    "y": 330.7
   },
   {
-    "id": "henrico va comprehensive plan 2023",
+    "id": "p0029",
     "name": "Henrico, VA Comprehensive Plan 2023",
     "client": "Henrico",
-    "type": "Comprehensive Plan",
+    "type": "Planning",
     "themes": [
       "comprehensive plan",
       "planning"
@@ -473,14 +483,14 @@
     "stateName": "Virginia",
     "lat": 37.5059,
     "lon": -77.3324,
-    "confidence": "place_lookup",
-    "summary": "Henrico, VA Comprehensive Plan 2023 in Henrico County, VA"
+    "x": 902.7,
+    "y": 346.8
   },
   {
-    "id": "irvington comprehensive plan 2023",
+    "id": "p0030",
     "name": "Irvington Comprehensive Plan 2023",
     "client": "Irvington",
-    "type": "Comprehensive Plan",
+    "type": "Planning",
     "themes": [
       "comprehensive plan",
       "planning"
@@ -491,14 +501,14 @@
     "stateName": "Virginia",
     "lat": 37.6635,
     "lon": -76.4197,
-    "confidence": "place_lookup",
-    "summary": "Irvington Comprehensive Plan 2023 in Irvington, VA"
+    "x": 917.9,
+    "y": 340.0
   },
   {
-    "id": "james city va comprehensive plan 2022",
+    "id": "p0031",
     "name": "James City, VA Comprehensive Plan 2022",
     "client": "James City",
-    "type": "Comprehensive Plan",
+    "type": "Planning",
     "themes": [
       "comprehensive plan",
       "planning"
@@ -509,14 +519,14 @@
     "stateName": "Virginia",
     "lat": 37.323,
     "lon": -76.778,
-    "confidence": "place_lookup",
-    "summary": "James City, VA Comprehensive Plan 2022 in James City County, VA"
+    "x": 913.3,
+    "y": 348.9
   },
   {
-    "id": "jaunt",
+    "id": "p0032",
     "name": "jaunt",
     "client": "jaunt",
-    "type": "jaunt",
+    "type": "Other",
     "themes": [],
     "year": "",
     "locality": "Charlottesville",
@@ -524,14 +534,14 @@
     "stateName": "Virginia",
     "lat": 38.0293,
     "lon": -78.4767,
-    "confidence": "place_lookup",
-    "summary": "jaunt in Charlottesville, VA"
+    "x": 880.5,
+    "y": 338.9
   },
   {
-    "id": "lovettsville va transportation plan 2021",
+    "id": "p0033",
     "name": "Lovettsville, VA Transportation Plan 2021",
     "client": "Lovettsville",
-    "type": "Transportation Plan",
+    "type": "Engineering / Transportation",
     "themes": [
       "transportation",
       "engineering"
@@ -542,14 +552,14 @@
     "stateName": "Virginia",
     "lat": 39.2726,
     "lon": -77.6369,
-    "confidence": "place_lookup",
-    "summary": "Lovettsville, VA Transportation Plan 2021 in Lovettsville, VA"
+    "x": 889.7,
+    "y": 308.2
   },
   {
-    "id": "lynchburg two way conversions 2025",
+    "id": "p0034",
     "name": "Lynchburg Two Way Conversions 2025",
     "client": "Lynchburg Two Way Conversions 2025",
-    "type": "Lynchburg Two Way Conversions 2025",
+    "type": "Other",
     "themes": [],
     "year": "2025",
     "locality": "Lynchburg",
@@ -557,14 +567,14 @@
     "stateName": "Virginia",
     "lat": 37.4138,
     "lon": -79.1422,
-    "confidence": "place_lookup",
-    "summary": "Lynchburg Two Way Conversions 2025 in Lynchburg, VA"
+    "x": 871.4,
+    "y": 354.8
   },
   {
-    "id": "martinsville va food hub 2020",
+    "id": "p0035",
     "name": "Martinsville, VA Food Hub 2020",
     "client": "Martinsville",
-    "type": "VA Food Hub 2020",
+    "type": "Other",
     "themes": [],
     "year": "2020",
     "locality": "Martinsville",
@@ -572,29 +582,31 @@
     "stateName": "Virginia",
     "lat": 36.6915,
     "lon": -79.8725,
-    "confidence": "place_lookup",
-    "summary": "Martinsville, VA Food Hub 2020 in Martinsville, VA"
+    "x": 861.3,
+    "y": 373.3
   },
   {
-    "id": "monte vista co rerc 2023",
+    "id": "p0036",
     "name": "Monte Vista, CO RERC 2023",
     "client": "Monte Vista",
-    "type": "CO RERC 2023",
-    "themes": [],
+    "type": "EPA / Technical Assistance",
+    "themes": [
+      "EPA / Technical Assistance"
+    ],
     "year": "2023",
     "locality": "Monte Vista",
     "state": "CO",
     "stateName": "Colorado",
     "lat": 37.5792,
     "lon": -106.1481,
-    "confidence": "place_lookup",
-    "summary": "Monte Vista, CO RERC 2023 in Monte Vista, CO"
+    "x": 391.5,
+    "y": 368.0
   },
   {
-    "id": "montgomery agrotourism 2023",
+    "id": "p0037",
     "name": "Montgomery Agrotourism 2023",
     "client": "Montgomery Agrotourism 2023",
-    "type": "Montgomery Agrotourism 2023",
+    "type": "Other",
     "themes": [],
     "year": "2023",
     "locality": "Montgomery County",
@@ -602,14 +614,14 @@
     "stateName": "Virginia",
     "lat": 37.1746,
     "lon": -80.387,
-    "confidence": "place_lookup",
-    "summary": "Montgomery Agrotourism 2023 in Montgomery County, VA"
+    "x": 850.4,
+    "y": 364.0
   },
   {
-    "id": "montgomery md agrotourism study 2018",
+    "id": "p0038",
     "name": "Montgomery, MD Agrotourism Study 2018",
     "client": "Montgomery",
-    "type": "MD Agrotourism Study 2018",
+    "type": "Other",
     "themes": [],
     "year": "2018",
     "locality": "Montgomery County",
@@ -617,14 +629,14 @@
     "stateName": "Maryland",
     "lat": 39.1547,
     "lon": -77.2405,
-    "confidence": "place_lookup",
-    "summary": "Montgomery, MD Agrotourism Study 2018 in Montgomery County, MD"
+    "x": 897.0,
+    "y": 309.5
   },
   {
-    "id": "montgomery va montgomery matters 2025",
+    "id": "p0039",
     "name": "Montgomery, VA Montgomery Matters 2025",
     "client": "Montgomery",
-    "type": "VA Montgomery Matters 2025",
+    "type": "Other",
     "themes": [],
     "year": "2025",
     "locality": "Montgomery County",
@@ -632,29 +644,31 @@
     "stateName": "Virginia",
     "lat": 37.1746,
     "lon": -80.387,
-    "confidence": "place_lookup",
-    "summary": "Montgomery, VA Montgomery Matters 2025 in Montgomery County, VA"
+    "x": 850.4,
+    "y": 364.0
   },
   {
-    "id": "montgomery va parks plan 2026",
+    "id": "p0040",
     "name": "Montgomery, VA Parks Plan 2026",
     "client": "Montgomery",
-    "type": "VA Parks Plan 2026",
-    "themes": [],
+    "type": "Planning",
+    "themes": [
+      "Planning"
+    ],
     "year": "2026",
     "locality": "Montgomery County",
     "state": "VA",
     "stateName": "Virginia",
     "lat": 37.1746,
     "lon": -80.387,
-    "confidence": "place_lookup",
-    "summary": "Montgomery, VA Parks Plan 2026 in Montgomery County, VA"
+    "x": 850.4,
+    "y": 364.0
   },
   {
-    "id": "montgomery va transportation plan 2023",
+    "id": "p0041",
     "name": "Montgomery, VA Transportation Plan 2023",
     "client": "Montgomery",
-    "type": "Transportation Plan",
+    "type": "Engineering / Transportation",
     "themes": [
       "transportation",
       "engineering"
@@ -665,29 +679,31 @@
     "stateName": "Virginia",
     "lat": 37.1746,
     "lon": -80.387,
-    "confidence": "place_lookup",
-    "summary": "Montgomery, VA Transportation Plan 2023 in Montgomery County, VA"
+    "x": 850.4,
+    "y": 364.0
   },
   {
-    "id": "new bedford ma lflp 2021",
+    "id": "p0042",
     "name": "New Bedford, MA LFLP 2021",
     "client": "New Bedford",
-    "type": "MA LFLP 2021",
-    "themes": [],
+    "type": "EPA / Technical Assistance",
+    "themes": [
+      "EPA / Technical Assistance"
+    ],
     "year": "2021",
     "locality": "New Bedford",
     "state": "MA",
     "stateName": "Massachusetts",
     "lat": 41.6362,
     "lon": -70.9342,
-    "confidence": "place_lookup",
-    "summary": "New Bedford, MA LFLP 2021 in New Bedford, MA"
+    "x": 989.2,
+    "y": 229.8
   },
   {
-    "id": "new kent county 2025",
+    "id": "p0043",
     "name": "New Kent County 2025",
     "client": "New Kent County 2025",
-    "type": "New Kent County 2025",
+    "type": "Other",
     "themes": [],
     "year": "2025",
     "locality": "New Kent County",
@@ -695,14 +711,14 @@
     "stateName": "Virginia",
     "lat": 37.5171,
     "lon": -76.9789,
-    "confidence": "place_lookup",
-    "summary": "New Kent County 2025 in New Kent County, VA"
+    "x": 908.9,
+    "y": 345.3
   },
   {
-    "id": "norfolk reconnecting communities",
+    "id": "p0044",
     "name": "Norfolk Reconnecting Communities",
     "client": "Norfolk Reconnecting Communities",
-    "type": "Norfolk Reconnecting Communities",
+    "type": "Other",
     "themes": [],
     "year": "",
     "locality": "Norfolk",
@@ -710,14 +726,14 @@
     "stateName": "Virginia",
     "lat": 36.8508,
     "lon": -76.2859,
-    "confidence": "place_lookup",
-    "summary": "Norfolk Reconnecting Communities in Norfolk, VA"
+    "x": 924.1,
+    "y": 357.6
   },
   {
-    "id": "norfolk va zoning rewrite 2018",
+    "id": "p0045",
     "name": "Norfolk Va Zoning Rewrite 2018",
     "client": "Norfolk Va Zoning Rewrite 2018",
-    "type": "Norfolk Va Zoning Rewrite 2018",
+    "type": "Zoning",
     "themes": [
       "zoning",
       "planning"
@@ -728,26 +744,28 @@
     "stateName": "Virginia",
     "lat": 36.8508,
     "lon": -76.2859,
-    "confidence": "place_lookup",
-    "summary": "Norfolk Va Zoning Rewrite 2018 in Norfolk, VA"
+    "x": 924.1,
+    "y": 357.6
   },
   {
-    "id": "norfolk va lflp 2021",
+    "id": "p0046",
     "name": "Norfolk, VA LFLP 2021",
     "client": "Norfolk",
-    "type": "VA LFLP 2021",
-    "themes": [],
+    "type": "EPA / Technical Assistance",
+    "themes": [
+      "EPA / Technical Assistance"
+    ],
     "year": "2021",
     "locality": "Norfolk",
     "state": "VA",
     "stateName": "Virginia",
     "lat": 36.8508,
     "lon": -76.2859,
-    "confidence": "place_lookup",
-    "summary": "Norfolk, VA LFLP 2021 in Norfolk, VA"
+    "x": 924.1,
+    "y": 357.6
   },
   {
-    "id": "norfolk va zoningrewrite 2018",
+    "id": "p0047",
     "name": "Norfolk, VA ZoningRewrite 2018",
     "client": "Norfolk",
     "type": "Zoning",
@@ -761,14 +779,14 @@
     "stateName": "Virginia",
     "lat": 36.8508,
     "lon": -76.2859,
-    "confidence": "place_lookup",
-    "summary": "Norfolk, VA ZoningRewrite 2018 in Norfolk, VA"
+    "x": 924.1,
+    "y": 357.6
   },
   {
-    "id": "north east md comprehensive plan update",
+    "id": "p0048",
     "name": "North East, MD Comprehensive Plan Update",
     "client": "North East",
-    "type": "Comprehensive Plan",
+    "type": "Planning",
     "themes": [
       "comprehensive plan",
       "planning"
@@ -779,14 +797,14 @@
     "stateName": "Maryland",
     "lat": 39.6001,
     "lon": -75.9413,
-    "confidence": "place_lookup",
-    "summary": "North East, MD Comprehensive Plan Update in North East, MD"
+    "x": 917.0,
+    "y": 295.0
   },
   {
-    "id": "nsvrc va hazard mitigation 2023",
+    "id": "p0049",
     "name": "NSVRC, VA Hazard Mitigation 2023",
     "client": "NSVRC",
-    "type": "VA Hazard Mitigation 2023",
+    "type": "Other",
     "themes": [],
     "year": "2023",
     "locality": "Northern Shenandoah Valley",
@@ -794,44 +812,48 @@
     "stateName": "Virginia",
     "lat": 39.1857,
     "lon": -78.1633,
-    "confidence": "place_lookup",
-    "summary": "NSVRC, VA Hazard Mitigation 2023 in Northern Shenandoah Valley, VA"
+    "x": 881.0,
+    "y": 311.9
   },
   {
-    "id": "pelican rapids mn lflp 2020",
+    "id": "p0050",
     "name": "Pelican Rapids, MN LFLP 2020",
     "client": "Pelican Rapids",
-    "type": "MN LFLP 2020",
-    "themes": [],
+    "type": "EPA / Technical Assistance",
+    "themes": [
+      "EPA / Technical Assistance"
+    ],
     "year": "2020",
     "locality": "Pelican Rapids",
     "state": "MN",
     "stateName": "Minnesota",
     "lat": 46.5708,
     "lon": -96.0831,
-    "confidence": "place_lookup",
-    "summary": "Pelican Rapids, MN LFLP 2020 in Pelican Rapids, MN"
+    "x": 570.7,
+    "y": 173.1
   },
   {
-    "id": "pulaski town va lflp 2019",
+    "id": "p0051",
     "name": "Pulaski (Town), VA LFLP 2019",
     "client": "Pulaski (Town)",
-    "type": "VA LFLP 2019",
-    "themes": [],
+    "type": "EPA / Technical Assistance",
+    "themes": [
+      "EPA / Technical Assistance"
+    ],
     "year": "2019",
     "locality": "Pulaski",
     "state": "VA",
     "stateName": "Virginia",
     "lat": 37.0479,
     "lon": -80.7798,
-    "confidence": "place_lookup",
-    "summary": "Pulaski (Town), VA LFLP 2019 in Pulaski, VA"
+    "x": 843.9,
+    "y": 368.0
   },
   {
-    "id": "richmond connects 2023",
+    "id": "p0052",
     "name": "Richmond Connects 2023",
     "client": "Richmond Connects 2023",
-    "type": "Richmond Connects 2023",
+    "type": "Other",
     "themes": [],
     "year": "2023",
     "locality": "Richmond",
@@ -839,14 +861,14 @@
     "stateName": "Virginia",
     "lat": 37.5407,
     "lon": -77.436,
-    "confidence": "place_lookup",
-    "summary": "Richmond Connects 2023 in Richmond, VA"
+    "x": 900.8,
+    "y": 346.3
   },
   {
-    "id": "richmond va richmondconnects 2023",
+    "id": "p0053",
     "name": "Richmond, VA RIchmondConnects 2023",
     "client": "Richmond",
-    "type": "VA RIchmondConnects 2023",
+    "type": "Other",
     "themes": [],
     "year": "2023",
     "locality": "Richmond",
@@ -854,14 +876,14 @@
     "stateName": "Virginia",
     "lat": 37.5407,
     "lon": -77.436,
-    "confidence": "place_lookup",
-    "summary": "Richmond, VA RIchmondConnects 2023 in Richmond, VA"
+    "x": 900.8,
+    "y": 346.3
   },
   {
-    "id": "roanoke valley tpo 2045 lrtp 2022",
+    "id": "p0054",
     "name": "Roanoke Valley TPO 2045 LRTP 2022",
     "client": "Roanoke Valley TPO",
-    "type": "2045 LRTP 2022",
+    "type": "Other",
     "themes": [],
     "year": "2045",
     "locality": "Roanoke",
@@ -869,29 +891,31 @@
     "stateName": "Virginia",
     "lat": 37.2709,
     "lon": -79.9414,
-    "confidence": "place_lookup",
-    "summary": "Roanoke Valley TPO 2045 LRTP 2022 in Roanoke, VA"
+    "x": 857.9,
+    "y": 360.5
   },
   {
-    "id": "salisbury nc lflp 2021",
+    "id": "p0055",
     "name": "Salisbury, NC LFLP 2021",
     "client": "Salisbury",
-    "type": "NC LFLP 2021",
-    "themes": [],
+    "type": "EPA / Technical Assistance",
+    "themes": [
+      "EPA / Technical Assistance"
+    ],
     "year": "2021",
     "locality": "Salisbury",
     "state": "NC",
     "stateName": "North Carolina",
     "lat": 35.6709,
     "lon": -80.4742,
-    "confidence": "place_lookup",
-    "summary": "Salisbury, NC LFLP 2021 in Salisbury, NC"
+    "x": 854.4,
+    "y": 398.1
   },
   {
-    "id": "shenandoah county comprehensive plan",
+    "id": "p0056",
     "name": "Shenandoah County Comprehensive Plan",
     "client": "Shenandoah County Comprehensive Plan",
-    "type": "Comprehensive Plan",
+    "type": "Planning",
     "themes": [
       "comprehensive plan",
       "planning"
@@ -902,14 +926,14 @@
     "stateName": "Virginia",
     "lat": 38.8587,
     "lon": -78.57,
-    "confidence": "place_lookup",
-    "summary": "Shenandoah County Comprehensive Plan in Shenandoah County, VA"
+    "x": 875.4,
+    "y": 320.6
   },
   {
-    "id": "shenandoah valley rail trail 2025",
+    "id": "p0057",
     "name": "Shenandoah Valley Rail Trail 2025",
     "client": "Shenandoah Valley Rail Trail 2025",
-    "type": "Trail",
+    "type": "Other",
     "themes": [],
     "year": "2025",
     "locality": "Shenandoah Valley",
@@ -917,14 +941,14 @@
     "stateName": "Virginia",
     "lat": 38.4496,
     "lon": -78.8689,
-    "confidence": "place_lookup",
-    "summary": "Shenandoah Valley Rail Trail 2025 in Shenandoah Valley, VA"
+    "x": 872.0,
+    "y": 330.7
   },
   {
-    "id": "small area planning henrico",
+    "id": "p0058",
     "name": "Small Area Planning Henrico",
     "client": "Small Area Planning Henrico",
-    "type": "Small Area Planning Henrico",
+    "type": "Planning",
     "themes": [
       "small area plan",
       "planning"
@@ -935,29 +959,31 @@
     "stateName": "Virginia",
     "lat": 37.5059,
     "lon": -77.3324,
-    "confidence": "place_lookup",
-    "summary": "Small Area Planning Henrico in Henrico County, VA"
+    "x": 902.7,
+    "y": 346.8
   },
   {
-    "id": "springfield il lflp 2020",
+    "id": "p0059",
     "name": "Springfield, IL LFLP 2020",
     "client": "Springfield",
-    "type": "IL LFLP 2020",
-    "themes": [],
+    "type": "EPA / Technical Assistance",
+    "themes": [
+      "EPA / Technical Assistance"
+    ],
     "year": "2020",
     "locality": "Springfield",
     "state": "IL",
     "stateName": "Illinois",
     "lat": 39.7817,
     "lon": -89.6501,
-    "confidence": "place_lookup",
-    "summary": "Springfield, IL LFLP 2020 in Springfield, IL"
+    "x": 681.7,
+    "y": 323.7
   },
   {
-    "id": "staunton comprehensive plan 2025 ongoing",
+    "id": "p0060",
     "name": "Staunton Comprehensive Plan 2025 Ongoing",
     "client": "Staunton Comprehensive Plan 2025 Ongoing",
-    "type": "Comprehensive Plan",
+    "type": "Planning",
     "themes": [
       "comprehensive plan",
       "planning"
@@ -968,29 +994,31 @@
     "stateName": "Virginia",
     "lat": 38.1496,
     "lon": -79.0717,
-    "confidence": "place_lookup",
-    "summary": "Staunton Comprehensive Plan 2025 Ongoing in Staunton, VA"
+    "x": 869.7,
+    "y": 338.1
   },
   {
-    "id": "staunton va west end plan 2024",
+    "id": "p0061",
     "name": "Staunton Va West End Plan 2024",
     "client": "Staunton Va",
-    "type": "West End Plan 2024",
-    "themes": [],
+    "type": "Planning",
+    "themes": [
+      "Planning"
+    ],
     "year": "2024",
     "locality": "Staunton",
     "state": "VA",
     "stateName": "Virginia",
     "lat": 38.1496,
     "lon": -79.0717,
-    "confidence": "place_lookup",
-    "summary": "Staunton Va West End Plan 2024 in Staunton, VA"
+    "x": 869.7,
+    "y": 338.1
   },
   {
-    "id": "staunton va uniontown 2023",
+    "id": "p0062",
     "name": "Staunton, VA Uniontown 2023",
     "client": "Staunton",
-    "type": "VA Uniontown 2023",
+    "type": "Other",
     "themes": [],
     "year": "2023",
     "locality": "Staunton",
@@ -998,14 +1026,14 @@
     "stateName": "Virginia",
     "lat": 38.1496,
     "lon": -79.0717,
-    "confidence": "place_lookup",
-    "summary": "Staunton, VA Uniontown 2023 in Staunton, VA"
+    "x": 869.7,
+    "y": 338.1
   },
   {
-    "id": "waynesboro comprehensive plan 2025 ongoing",
+    "id": "p0063",
     "name": "Waynesboro Comprehensive Plan 2025 Ongoing",
     "client": "Waynesboro Comprehensive Plan 2025 Ongoing",
-    "type": "Comprehensive Plan",
+    "type": "Planning",
     "themes": [
       "comprehensive plan",
       "planning"
@@ -1016,14 +1044,14 @@
     "stateName": "Virginia",
     "lat": 38.0685,
     "lon": -78.8895,
-    "confidence": "place_lookup",
-    "summary": "Waynesboro Comprehensive Plan 2025 Ongoing in Waynesboro, VA"
+    "x": 873.2,
+    "y": 339.3
   },
   {
-    "id": "waynesboro va port republic 2022",
+    "id": "p0064",
     "name": "Waynesboro, VA Port Republic 2022",
     "client": "Waynesboro",
-    "type": "VA Port Republic 2022",
+    "type": "Other",
     "themes": [],
     "year": "2022",
     "locality": "Waynesboro",
@@ -1031,11 +1059,11 @@
     "stateName": "Virginia",
     "lat": 38.0685,
     "lon": -78.8895,
-    "confidence": "place_lookup",
-    "summary": "Waynesboro, VA Port Republic 2022 in Waynesboro, VA"
+    "x": 873.2,
+    "y": 339.3
   },
   {
-    "id": "wicomico county housing study",
+    "id": "p0065",
     "name": "Wicomico County Housing Study",
     "client": "Wicomico County Housing Study",
     "type": "Housing",
@@ -1049,14 +1077,14 @@
     "stateName": "Maryland",
     "lat": 38.3673,
     "lon": -75.6325,
-    "confidence": "place_lookup",
-    "summary": "Wicomico County Housing Study in Wicomico County, MD"
+    "x": 928.2,
+    "y": 321.4
   },
   {
-    "id": "winchester va bike share 2022",
+    "id": "p0066",
     "name": "Winchester, VA Bike Share 2022",
     "client": "Winchester",
-    "type": "Bike",
+    "type": "Other",
     "themes": [],
     "year": "2022",
     "locality": "Winchester",
@@ -1064,14 +1092,14 @@
     "stateName": "Virginia",
     "lat": 39.1857,
     "lon": -78.1633,
-    "confidence": "place_lookup",
-    "summary": "Winchester, VA Bike Share 2022 in Winchester, VA"
+    "x": 881.0,
+    "y": 311.9
   },
   {
-    "id": "winchester va comp plan visualization 2020",
+    "id": "p0067",
     "name": "Winchester, VA Comp Plan Visualization 2020",
     "client": "Winchester",
-    "type": "VA Comp Plan Visualization 2020",
+    "type": "Planning",
     "themes": [
       "comprehensive plan",
       "planning"
@@ -1082,14 +1110,14 @@
     "stateName": "Virginia",
     "lat": 39.1857,
     "lon": -78.1633,
-    "confidence": "place_lookup",
-    "summary": "Winchester, VA Comp Plan Visualization 2020 in Winchester, VA"
+    "x": 881.0,
+    "y": 311.9
   },
   {
-    "id": "winchester va neighborhood plans 2023",
+    "id": "p0068",
     "name": "Winchester, VA Neighborhood Plans 2023",
     "client": "Winchester",
-    "type": "VA Neighborhood Plans 2023",
+    "type": "Planning",
     "themes": [
       "small area plan",
       "planning"
@@ -1100,14 +1128,14 @@
     "stateName": "Virginia",
     "lat": 39.1857,
     "lon": -78.1633,
-    "confidence": "place_lookup",
-    "summary": "Winchester, VA Neighborhood Plans 2023 in Winchester, VA"
+    "x": 881.0,
+    "y": 311.9
   },
   {
-    "id": "epa_bpa_001",
+    "id": "p0069",
     "name": "EPA BPA / RERC-LFLP",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -1120,14 +1148,14 @@
     "stateName": "Indiana",
     "lat": 37.9716,
     "lon": -87.5711,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC-LFLP in Evansville, IN"
+    "x": 721.1,
+    "y": 362.1
   },
   {
-    "id": "epa_bpa_002",
+    "id": "p0070",
     "name": "EPA BPA / RERC-LFLP",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -1140,14 +1168,14 @@
     "stateName": "Illinois",
     "lat": 39.7817,
     "lon": -89.6501,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC-LFLP in Springfield, IL"
+    "x": 681.7,
+    "y": 323.7
   },
   {
-    "id": "epa_bpa_003",
+    "id": "p0071",
     "name": "EPA BPA / RERC-LFLP",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -1160,14 +1188,14 @@
     "stateName": "Nebraska",
     "lat": 40.8681,
     "lon": -97.592,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC-LFLP in York, NE"
+    "x": 544.9,
+    "y": 302.4
   },
   {
-    "id": "epa_bpa_004",
+    "id": "p0072",
     "name": "EPA BPA / RERC-LFLP",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -1180,14 +1208,14 @@
     "stateName": "Alabama",
     "lat": 33.6846,
     "lon": -87.8309,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC-LFLP in Fayette, AL"
+    "x": 725.0,
+    "y": 459.9
   },
   {
-    "id": "epa_bpa_005",
+    "id": "p0073",
     "name": "EPA BPA / RERC-LFLP",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -1200,14 +1228,14 @@
     "stateName": "North Carolina",
     "lat": 35.6709,
     "lon": -80.4742,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC-LFLP in Salisbury, NC"
+    "x": 854.4,
+    "y": 398.1
   },
   {
-    "id": "epa_bpa_006",
+    "id": "p0074",
     "name": "EPA BPA / RERC-LFLP",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -1220,14 +1248,14 @@
     "stateName": "Mississippi",
     "lat": 32.3526,
     "lon": -90.8779,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC-LFLP in Vicksburg, MS"
+    "x": 669.6,
+    "y": 494.1
   },
   {
-    "id": "epa_bpa_007",
+    "id": "p0075",
     "name": "EPA BPA / RERC-LFLP",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -1240,14 +1268,14 @@
     "stateName": "New York",
     "lat": 41.7004,
     "lon": -73.921,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC-LFLP in Poughkeepsie, NY"
+    "x": 940.1,
+    "y": 240.7
   },
   {
-    "id": "epa_bpa_008",
+    "id": "p0076",
     "name": "EPA BPA / RERC-LFLP",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -1260,14 +1288,14 @@
     "stateName": "Pennsylvania",
     "lat": 40.3267,
     "lon": -78.9219,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC-LFLP in Johnstown, PA"
+    "x": 863.4,
+    "y": 288.7
   },
   {
-    "id": "epa_bpa_009",
+    "id": "p0077",
     "name": "EPA BPA / RERC-LFLP",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -1280,14 +1308,14 @@
     "stateName": "Minnesota",
     "lat": 46.5708,
     "lon": -96.0831,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC-LFLP in Pelican Rapids, MN"
+    "x": 570.7,
+    "y": 173.1
   },
   {
-    "id": "epa_bpa_010",
+    "id": "p0078",
     "name": "EPA BPA / RERC-LFLP",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -1300,14 +1328,14 @@
     "stateName": "Pennsylvania",
     "lat": 40.2732,
     "lon": -76.8867,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC-LFLP in Harrisburg, PA"
+    "x": 897.9,
+    "y": 283.3
   },
   {
-    "id": "epa_bpa_011",
+    "id": "p0079",
     "name": "EPA BPA / RERC-LFLP",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -1320,14 +1348,14 @@
     "stateName": "Louisiana",
     "lat": 30.5335,
     "lon": -92.0815,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC-LFLP in Opelousas, LA"
+    "x": 648.4,
+    "y": 536.4
   },
   {
-    "id": "epa_bpa_012",
+    "id": "p0080",
     "name": "EPA BPA / LFLP6",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -1340,14 +1368,14 @@
     "stateName": "Rhode Island",
     "lat": 42.0029,
     "lon": -71.5148,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / LFLP6 in Woonsocket, RI"
+    "x": 977.7,
+    "y": 224.2
   },
   {
-    "id": "epa_bpa_013",
+    "id": "p0081",
     "name": "EPA BPA / LFLP6",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -1360,14 +1388,14 @@
     "stateName": "Oregon",
     "lat": 43.7976,
     "lon": -123.0595,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / LFLP6 in Cottage Grove, OR"
+    "x": 136.2,
+    "y": 173.5
   },
   {
-    "id": "epa_bpa_014",
+    "id": "p0082",
     "name": "EPA BPA / LFLP6",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -1380,14 +1408,14 @@
     "stateName": "Louisiana",
     "lat": 30.2529,
     "lon": -93.2174,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / LFLP6 in North Lake Charles, LA"
+    "x": 626.4,
+    "y": 543.5
   },
   {
-    "id": "epa_bpa_015",
+    "id": "p0083",
     "name": "EPA BPA / LFLP6",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -1400,14 +1428,14 @@
     "stateName": "Missouri",
     "lat": 39.0997,
     "lon": -94.5786,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / LFLP6 in Kansas City, MO"
+    "x": 596.8,
+    "y": 342.8
   },
   {
-    "id": "epa_bpa_016",
+    "id": "p0084",
     "name": "EPA BPA / LFLP6",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -1420,14 +1448,14 @@
     "stateName": "Virginia",
     "lat": 38.0293,
     "lon": -78.4767,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / LFLP6 in Charlottesville, VA"
+    "x": 880.5,
+    "y": 338.9
   },
   {
-    "id": "epa_bpa_017",
+    "id": "p0085",
     "name": "EPA BPA / LFLP6",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -1440,14 +1468,14 @@
     "stateName": "Virginia",
     "lat": 37.0479,
     "lon": -80.7798,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / LFLP6 in Pulaski, VA"
+    "x": 843.9,
+    "y": 368.0
   },
   {
-    "id": "epa_bpa_018",
+    "id": "p0086",
     "name": "EPA BPA / RERC1",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -1460,14 +1488,14 @@
     "stateName": "New York",
     "lat": 43.0281,
     "lon": -73.3812,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC1 in Cambridge, NY"
+    "x": 941.8,
+    "y": 209.2
   },
   {
-    "id": "epa_bpa_019",
+    "id": "p0087",
     "name": "EPA BPA / RERC1",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -1480,14 +1508,14 @@
     "stateName": "Maine",
     "lat": 44.0165,
     "lon": -70.9806,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC1 in Fryeburg, ME"
+    "x": 974.4,
+    "y": 177.7
   },
   {
-    "id": "epa_bpa_020",
+    "id": "p0088",
     "name": "EPA BPA / RERC1",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -1500,14 +1528,14 @@
     "stateName": "Virginia",
     "lat": 37.3315,
     "lon": -80.7351,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC1 in Giles County, VA"
+    "x": 843.7,
+    "y": 361.5
   },
   {
-    "id": "epa_bpa_021",
+    "id": "p0089",
     "name": "EPA BPA / RERC1",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -1520,14 +1548,14 @@
     "stateName": "Colorado",
     "lat": 39.5505,
     "lon": -107.3248,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC1 in Glenwood Springs, CO"
+    "x": 376.0,
+    "y": 321.0
   },
   {
-    "id": "epa_bpa_022",
+    "id": "p0090",
     "name": "EPA BPA / RERC1",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -1540,14 +1568,14 @@
     "stateName": "New Hampshire",
     "lat": 44.3878,
     "lon": -71.1731,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC1 in Gorham, NH"
+    "x": 969.2,
+    "y": 170.3
   },
   {
-    "id": "epa_bpa_023",
+    "id": "p0091",
     "name": "EPA BPA / RERC1",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -1560,14 +1588,14 @@
     "stateName": "New Mexico",
     "lat": 35.1473,
     "lon": -107.8514,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC1 in Grants, NM"
+    "x": 354.5,
+    "y": 419.6
   },
   {
-    "id": "epa_bpa_024",
+    "id": "p0092",
     "name": "EPA BPA / RERC1",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -1580,14 +1608,14 @@
     "stateName": "Alabama",
     "lat": 33.8312,
     "lon": -87.2775,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC1 in Jasper, AL"
+    "x": 735.0,
+    "y": 455.6
   },
   {
-    "id": "epa_bpa_025",
+    "id": "p0093",
     "name": "EPA BPA / RERC1",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -1600,14 +1628,14 @@
     "stateName": "Oregon",
     "lat": 44.4165,
     "lon": -118.953,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC1 in John Day, OR"
+    "x": 204.3,
+    "y": 177.2
   },
   {
-    "id": "epa_bpa_026",
+    "id": "p0094",
     "name": "EPA BPA / RERC1",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -1620,14 +1648,14 @@
     "stateName": "Vermont",
     "lat": 43.517,
     "lon": -73.2362,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC1 in Poultney, VT"
+    "x": 941.5,
+    "y": 197.8
   },
   {
-    "id": "epa_bpa_027",
+    "id": "p0095",
     "name": "EPA BPA / RERC1",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -1640,14 +1668,14 @@
     "stateName": "Montana",
     "lat": 47.5966,
     "lon": -115.3435,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC1 in Thompson Falls, MT"
+    "x": 275.8,
+    "y": 119.7
   },
   {
-    "id": "epa_bpa_028",
+    "id": "p0096",
     "name": "EPA BPA / Building Blocks 2024",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -1660,14 +1688,14 @@
     "stateName": "New York",
     "lat": 44.9731,
     "lon": -74.6624,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / Building Blocks 2024 in Akwesasne, NY"
+    "x": 911.4,
+    "y": 171.0
   },
   {
-    "id": "epa_bpa_029",
+    "id": "p0097",
     "name": "EPA BPA / Building Blocks 2024",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -1680,14 +1708,14 @@
     "stateName": "Minnesota",
     "lat": 43.6666,
     "lon": -92.9746,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / Building Blocks 2024 in Austin, MN"
+    "x": 621.4,
+    "y": 238.1
   },
   {
-    "id": "epa_bpa_030",
+    "id": "p0098",
     "name": "EPA BPA / Building Blocks 2024",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -1700,14 +1728,14 @@
     "stateName": "Wyoming",
     "lat": 41.14,
     "lon": -104.8202,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / Building Blocks 2024 in Cheyenne, WY"
+    "x": 422.6,
+    "y": 289.5
   },
   {
-    "id": "epa_bpa_031",
+    "id": "p0099",
     "name": "EPA BPA / Building Blocks 2024",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -1720,14 +1748,14 @@
     "stateName": "Oregon",
     "lat": 42.5776,
     "lon": -121.8667,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / Building Blocks 2024 in Chiloquin, OR"
+    "x": 147.5,
+    "y": 205.5
   },
   {
-    "id": "epa_bpa_032",
+    "id": "p0100",
     "name": "EPA BPA / Building Blocks 2024",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -1740,14 +1768,14 @@
     "stateName": "Missouri",
     "lat": 38.7192,
     "lon": -90.2604,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / Building Blocks 2024 in Jennings, MO"
+    "x": 672.6,
+    "y": 348.6
   },
   {
-    "id": "epa_bpa_033",
+    "id": "p0101",
     "name": "EPA BPA / Building Blocks 2024",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -1760,14 +1788,14 @@
     "stateName": "North Dakota",
     "lat": 46.8267,
     "lon": -100.8896,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / Building Blocks 2024 in Mandan, ND"
+    "x": 495.7,
+    "y": 165.4
   },
   {
-    "id": "epa_bpa_034",
+    "id": "p0102",
     "name": "EPA BPA / Building Blocks 2024",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -1780,14 +1808,14 @@
     "stateName": "Wisconsin",
     "lat": 44.0886,
     "lon": -87.6576,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / Building Blocks 2024 in Manitowoc, WI"
+    "x": 707.4,
+    "y": 223.4
   },
   {
-    "id": "epa_bpa_035",
+    "id": "p0103",
     "name": "EPA BPA / Building Blocks 2024",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -1800,14 +1828,14 @@
     "stateName": "Washington",
     "lat": 46.9102,
     "lon": -117.0757,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / Building Blocks 2024 in Palouse, WA"
+    "x": 246.3,
+    "y": 129.2
   },
   {
-    "id": "epa_bpa_036",
+    "id": "p0104",
     "name": "EPA BPA / Building Blocks 2024",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -1820,14 +1848,14 @@
     "stateName": "Maine",
     "lat": 45.14,
     "lon": -67.0,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / Building Blocks 2024 in Passamaquoddy, ME"
+    "x": 1028.9,
+    "y": 135.2
   },
   {
-    "id": "epa_bpa_037",
+    "id": "p0105",
     "name": "EPA BPA / LFLP9",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -1840,14 +1868,14 @@
     "stateName": "Pennsylvania",
     "lat": 40.4406,
     "lon": -79.9959,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / LFLP9 in Pittsburgh, PA"
+    "x": 844.8,
+    "y": 289.3
   },
   {
-    "id": "epa_bpa_038",
+    "id": "p0106",
     "name": "EPA BPA / LFLP9",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -1860,14 +1888,14 @@
     "stateName": "Tennessee",
     "lat": 35.692,
     "lon": -84.8608,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / LFLP9 in Spring City, TN"
+    "x": 775.0,
+    "y": 408.8
   },
   {
-    "id": "epa_bpa_039",
+    "id": "p0107",
     "name": "EPA BPA / LFLP9",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -1880,14 +1908,14 @@
     "stateName": "West Virginia",
     "lat": 38.6645,
     "lon": -80.7098,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / LFLP9 in Sutton, WV"
+    "x": 839.2,
+    "y": 331.4
   },
   {
-    "id": "epa_bpa_040",
+    "id": "p0108",
     "name": "EPA BPA / RERC2",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -1900,14 +1928,14 @@
     "stateName": "Maine",
     "lat": 44.8016,
     "lon": -68.7712,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC2 in Bangor, ME"
+    "x": 1003.9,
+    "y": 150.8
   },
   {
-    "id": "epa_bpa_041",
+    "id": "p0109",
     "name": "EPA BPA / RERC2",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -1920,14 +1948,14 @@
     "stateName": "Maryland",
     "lat": 39.3143,
     "lon": -77.6278,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC2 in Brunswick, MD"
+    "x": 889.6,
+    "y": 307.3
   },
   {
-    "id": "epa_bpa_042",
+    "id": "p0110",
     "name": "EPA BPA / RERC2",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -1940,14 +1968,14 @@
     "stateName": "Montana",
     "lat": 46.0038,
     "lon": -112.5348,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC2 in Butte, MT"
+    "x": 312.1,
+    "y": 163.2
   },
   {
-    "id": "epa_bpa_043",
+    "id": "p0111",
     "name": "EPA BPA / RERC2",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -1960,14 +1988,14 @@
     "stateName": "New Hampshire",
     "lat": 43.3767,
     "lon": -72.3468,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC2 in Claremont, NH"
+    "x": 956.5,
+    "y": 197.4
   },
   {
-    "id": "epa_bpa_044",
+    "id": "p0112",
     "name": "EPA BPA / RERC2",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -1980,14 +2008,14 @@
     "stateName": "South Carolina",
     "lat": 34.3957,
     "lon": -81.1276,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC2 in Fairfield County, SC"
+    "x": 847.2,
+    "y": 428.7
   },
   {
-    "id": "epa_bpa_045",
+    "id": "p0113",
     "name": "EPA BPA / RERC2",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2000,14 +2028,14 @@
     "stateName": "New York",
     "lat": 43.4073,
     "lon": -73.2596,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC2 in Granville, NY"
+    "x": 941.7,
+    "y": 200.3
   },
   {
-    "id": "epa_bpa_046",
+    "id": "p0114",
     "name": "EPA BPA / RERC2",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2020,14 +2048,14 @@
     "stateName": "California",
     "lat": 34.9716,
     "lon": -120.5718,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC2 in Guadalupe, CA"
+    "x": 123.9,
+    "y": 378.9
   },
   {
-    "id": "epa_bpa_047",
+    "id": "p0115",
     "name": "EPA BPA / RERC2",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2040,14 +2068,14 @@
     "stateName": "Alaska",
     "lat": 59.2358,
     "lon": -135.445,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC2 in Haines, AK"
+    "x": 278.9,
+    "y": 714.3
   },
   {
-    "id": "epa_bpa_048",
+    "id": "p0116",
     "name": "EPA BPA / RERC2",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2060,14 +2088,14 @@
     "stateName": "Vermont",
     "lat": 44.3517,
     "lon": -72.3526,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC2 in Marshfield, VT"
+    "x": 950.9,
+    "y": 175.9
   },
   {
-    "id": "epa_bpa_049",
+    "id": "p0117",
     "name": "EPA BPA / RERC2",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2080,14 +2108,14 @@
     "stateName": "Colorado",
     "lat": 37.5792,
     "lon": -106.1481,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC2 in Monte Vista, CO"
+    "x": 391.5,
+    "y": 368.0
   },
   {
-    "id": "epa_bpa_050",
+    "id": "p0118",
     "name": "EPA BPA / RERC2",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2100,14 +2128,14 @@
     "stateName": "California",
     "lat": 39.9368,
     "lon": -120.9472,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC2 in Quincy, CA"
+    "x": 146.6,
+    "y": 267.7
   },
   {
-    "id": "epa_bpa_051",
+    "id": "p0119",
     "name": "EPA BPA / RERC2",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2120,14 +2148,14 @@
     "stateName": "California",
     "lat": 41.7354,
     "lon": -122.6345,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC2 in Yreka, CA"
+    "x": 129.9,
+    "y": 220.5
   },
   {
-    "id": "epa_bpa_052",
+    "id": "p0120",
     "name": "EPA BPA / RERC2 Revive ARC",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2140,14 +2168,14 @@
     "stateName": "Alabama",
     "lat": 33.1782,
     "lon": -86.6072,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC2 Revive ARC in Columbiana, AL"
+    "x": 748.9,
+    "y": 469.2
   },
   {
-    "id": "epa_bpa_053",
+    "id": "p0121",
     "name": "EPA BPA / RERC2 Revive ARC",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2160,14 +2188,14 @@
     "stateName": "Georgia",
     "lat": 34.3529,
     "lon": -82.9321,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC2 Revive ARC in Hartwell, GA"
+    "x": 814.1,
+    "y": 434.6
   },
   {
-    "id": "epa_bpa_054",
+    "id": "p0122",
     "name": "EPA BPA / RERC2 Revive ARC",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2180,14 +2208,14 @@
     "stateName": "Kentucky",
     "lat": 37.1734,
     "lon": -82.6307,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC2 Revive ARC in Jenkins, KY"
+    "x": 810.7,
+    "y": 370.1
   },
   {
-    "id": "epa_bpa_055",
+    "id": "p0123",
     "name": "EPA BPA / RERC2 Revive ARC",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2200,14 +2228,14 @@
     "stateName": "Kentucky",
     "lat": 37.4304,
     "lon": -83.9977,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC2 Revive ARC in McKee, KY"
+    "x": 785.7,
+    "y": 367.6
   },
   {
-    "id": "epa_bpa_056",
+    "id": "p0124",
     "name": "EPA BPA / RERC2 Revive ARC",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2220,14 +2248,14 @@
     "stateName": "New York",
     "lat": 42.1578,
     "lon": -78.715,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC2 Revive ARC in Salamanca, NY"
+    "x": 859.3,
+    "y": 247.0
   },
   {
-    "id": "epa_bpa_057",
+    "id": "p0125",
     "name": "EPA BPA / RERC2 Revive ARC",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2240,14 +2268,14 @@
     "stateName": "Ohio",
     "lat": 39.5478,
     "lon": -81.6396,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC2 Revive ARC in Beverly, OH"
+    "x": 820.1,
+    "y": 314.0
   },
   {
-    "id": "epa_bpa_058",
+    "id": "p0126",
     "name": "EPA BPA / RERC2 Revive ARC",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2260,14 +2288,14 @@
     "stateName": "Ohio",
     "lat": 40.272,
     "lon": -81.8596,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC2 Revive ARC in Coshocton, OH"
+    "x": 813.8,
+    "y": 298.2
   },
   {
-    "id": "epa_bpa_059",
+    "id": "p0127",
     "name": "EPA BPA / RERC2 Revive ARC",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2280,14 +2308,14 @@
     "stateName": "Ohio",
     "lat": 38.6039,
     "lon": -82.5179,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC2 Revive ARC in Lawrence County, OH"
+    "x": 808.0,
+    "y": 337.5
   },
   {
-    "id": "epa_bpa_060",
+    "id": "p0128",
     "name": "EPA BPA / RERC2 Revive ARC",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2300,14 +2328,14 @@
     "stateName": "Tennessee",
     "lat": 36.5509,
     "lon": -83.9558,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC2 Revive ARC in Clairfield, TN"
+    "x": 788.9,
+    "y": 387.4
   },
   {
-    "id": "epa_bpa_061",
+    "id": "p0129",
     "name": "EPA BPA / RERC2 Revive ARC",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2320,14 +2348,14 @@
     "stateName": "Virginia",
     "lat": 37.5276,
     "lon": -79.6798,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC2 Revive ARC in Buchanan, VA"
+    "x": 861.5,
+    "y": 353.9
   },
   {
-    "id": "epa_bpa_062",
+    "id": "p0130",
     "name": "EPA BPA / RERC2 Revive ARC",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2340,14 +2368,14 @@
     "stateName": "Virginia",
     "lat": 37.7343,
     "lon": -79.3539,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC2 Revive ARC in Buena Vista, VA"
+    "x": 866.4,
+    "y": 348.3
   },
   {
-    "id": "epa_bpa_063",
+    "id": "p0131",
     "name": "EPA BPA / RERC2 Revive ARC",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2360,14 +2388,14 @@
     "stateName": "West Virginia",
     "lat": 38.0529,
     "lon": -81.1037,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC2 Revive ARC in Fayetteville, WV"
+    "x": 834.6,
+    "y": 346.2
   },
   {
-    "id": "epa_bpa_064",
+    "id": "p0132",
     "name": "EPA BPA / LFLP7",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2380,14 +2408,14 @@
     "stateName": "Tennessee",
     "lat": 35.0456,
     "lon": -85.3097,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / LFLP7 in Chattanooga, TN"
+    "x": 768.5,
+    "y": 424.4
   },
   {
-    "id": "epa_bpa_065",
+    "id": "p0133",
     "name": "EPA BPA / LFLP7",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2400,14 +2428,14 @@
     "stateName": "Puerto Rico",
     "lat": 18.3104,
     "lon": -65.3031,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / LFLP7 in Culebra, PR"
+    "x": 924.9,
+    "y": 697.9
   },
   {
-    "id": "epa_bpa_066",
+    "id": "p0134",
     "name": "EPA BPA / LFLP7",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2420,14 +2448,14 @@
     "stateName": "Illinois",
     "lat": 38.6245,
     "lon": -90.1509,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / LFLP7 in East St. Louis, IL"
+    "x": 674.6,
+    "y": 350.7
   },
   {
-    "id": "epa_bpa_067",
+    "id": "p0135",
     "name": "EPA BPA / LFLP7",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2440,14 +2468,14 @@
     "stateName": "Colorado",
     "lat": 40.5853,
     "lon": -105.0844,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / LFLP7 in Fort Collins, CO"
+    "x": 416.9,
+    "y": 301.7
   },
   {
-    "id": "epa_bpa_068",
+    "id": "p0136",
     "name": "EPA BPA / LFLP7",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2460,14 +2488,14 @@
     "stateName": "Missouri",
     "lat": 38.5767,
     "lon": -92.1735,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / LFLP7 in Jefferson City, MO"
+    "x": 639.2,
+    "y": 353.6
   },
   {
-    "id": "epa_bpa_069",
+    "id": "p0137",
     "name": "EPA BPA / LFLP7",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2480,14 +2508,14 @@
     "stateName": "New Jersey",
     "lat": 40.7178,
     "lon": -74.0431,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / LFLP7 in Jersey City, NJ"
+    "x": 943.3,
+    "y": 263.0
   },
   {
-    "id": "epa_bpa_070",
+    "id": "p0138",
     "name": "EPA BPA / LFLP7",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2500,14 +2528,14 @@
     "stateName": "Nevada",
     "lat": 36.1716,
     "lon": -115.1391,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / LFLP7 in Las Vegas, NV"
+    "x": 226.9,
+    "y": 374.9
   },
   {
-    "id": "epa_bpa_071",
+    "id": "p0139",
     "name": "EPA BPA / LFLP7",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2520,14 +2548,14 @@
     "stateName": "Massachusetts",
     "lat": 41.6362,
     "lon": -70.9342,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / LFLP7 in New Bedford, MA"
+    "x": 989.2,
+    "y": 229.8
   },
   {
-    "id": "epa_bpa_072",
+    "id": "p0140",
     "name": "EPA BPA / LFLP7",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2540,14 +2568,14 @@
     "stateName": "Virginia",
     "lat": 36.8508,
     "lon": -76.2859,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / LFLP7 in Norfolk, VA"
+    "x": 924.1,
+    "y": 357.6
   },
   {
-    "id": "epa_bpa_073",
+    "id": "p0141",
     "name": "EPA BPA / LFLP7",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2560,14 +2588,14 @@
     "stateName": "California",
     "lat": 38.5816,
     "lon": -121.4944,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / LFLP7 in Sacramento, CA"
+    "x": 129.3,
+    "y": 295.1
   },
   {
-    "id": "epa_bpa_074",
+    "id": "p0142",
     "name": "EPA BPA / LFLP7",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2580,14 +2608,14 @@
     "stateName": "Oklahoma",
     "lat": 36.154,
     "lon": -95.9928,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / LFLP7 in Tulsa, OK"
+    "x": 572.1,
+    "y": 410.2
   },
   {
-    "id": "epa_bpa_075",
+    "id": "p0143",
     "name": "EPA BPA / LFLP7",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2600,14 +2628,14 @@
     "stateName": "Washington",
     "lat": 47.548,
     "lon": -121.9836,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / LFLP7 in Unincorporated King County, WA"
+    "x": 176.0,
+    "y": 96.6
   },
   {
-    "id": "epa_bpa_076",
+    "id": "p0144",
     "name": "EPA BPA / LFLP7",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2620,14 +2648,14 @@
     "stateName": "Oklahoma",
     "lat": 36.7934,
     "lon": -94.7255,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / LFLP7 in Wyandotte Nation, OK"
+    "x": 594.9,
+    "y": 395.5
   },
   {
-    "id": "epa_bpa_077",
+    "id": "p0145",
     "name": "EPA BPA / Building Blocks / UHI 2025",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2640,14 +2668,14 @@
     "stateName": "Georgia",
     "lat": 33.749,
     "lon": -84.388,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / Building Blocks / UHI 2025 in Atlanta, GA"
+    "x": 789.0,
+    "y": 451.7
   },
   {
-    "id": "epa_bpa_078",
+    "id": "p0146",
     "name": "EPA BPA / Building Blocks / UHI 2025",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2660,14 +2688,14 @@
     "stateName": "Maryland",
     "lat": 39.2904,
     "lon": -76.6122,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / Building Blocks / UHI 2025 in Baltimore, MD"
+    "x": 907.1,
+    "y": 304.3
   },
   {
-    "id": "epa_bpa_079",
+    "id": "p0147",
     "name": "EPA BPA / Building Blocks / UHI 2025",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2680,14 +2708,14 @@
     "stateName": "Indiana",
     "lat": 41.0793,
     "lon": -85.1394,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / Building Blocks / UHI 2025 in Fort Wayne, IN"
+    "x": 755.9,
+    "y": 287.3
   },
   {
-    "id": "epa_bpa_080",
+    "id": "p0148",
     "name": "EPA BPA / Building Blocks / UHI 2025",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2700,14 +2728,14 @@
     "stateName": "Oregon",
     "lat": 45.5152,
     "lon": -122.6784,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / Building Blocks / UHI 2025 in Portland, OR"
+    "x": 153.0,
+    "y": 137.8
   },
   {
-    "id": "epa_bpa_081",
+    "id": "p0149",
     "name": "EPA BPA / Building Blocks / UHI 2025",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2720,14 +2748,14 @@
     "stateName": "Ohio",
     "lat": 41.6528,
     "lon": -83.5379,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / Building Blocks / UHI 2025 in Toledo, OH"
+    "x": 781.2,
+    "y": 271.0
   },
   {
-    "id": "epa_bpa_082",
+    "id": "p0150",
     "name": "EPA BPA / RERC3",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2740,14 +2768,14 @@
     "stateName": "Ohio",
     "lat": 40.0177,
     "lon": -80.9677,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC3 in Belmont County, OH"
+    "x": 829.9,
+    "y": 301.6
   },
   {
-    "id": "epa_bpa_083",
+    "id": "p0151",
     "name": "EPA BPA / RERC3",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2760,14 +2788,14 @@
     "stateName": "Louisiana",
     "lat": 32.1057,
     "lon": -92.0776,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC3 in Columbia, LA"
+    "x": 647.0,
+    "y": 500.8
   },
   {
-    "id": "epa_bpa_084",
+    "id": "p0152",
     "name": "EPA BPA / RERC3",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2780,14 +2808,14 @@
     "stateName": "Arizona",
     "lat": 31.3445,
     "lon": -109.5453,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC3 in Douglas, AZ"
+    "x": 311.3,
+    "y": 501.0
   },
   {
-    "id": "epa_bpa_085",
+    "id": "p0153",
     "name": "EPA BPA / RERC3",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2800,14 +2828,14 @@
     "stateName": "Kentucky",
     "lat": 37.5455,
     "lon": -82.7779,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC3 in Floyd County, KY"
+    "x": 806.9,
+    "y": 362.1
   },
   {
-    "id": "epa_bpa_086",
+    "id": "p0154",
     "name": "EPA BPA / RERC3",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2820,14 +2848,14 @@
     "stateName": "Kansas",
     "lat": 39.0286,
     "lon": -96.8314,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC3 in Junction City, KS"
+    "x": 557.5,
+    "y": 344.5
   },
   {
-    "id": "epa_bpa_087",
+    "id": "p0155",
     "name": "EPA BPA / RERC3",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2840,14 +2868,14 @@
     "stateName": "California",
     "lat": 35.7547,
     "lon": -118.4254,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC3 in Kernville, CA"
+    "x": 166.4,
+    "y": 371.2
   },
   {
-    "id": "epa_bpa_088",
+    "id": "p0156",
     "name": "EPA BPA / RERC3",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2860,14 +2888,14 @@
     "stateName": "Mississippi",
     "lat": 33.1104,
     "lon": -88.5692,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC3 in Noxubee County, MS"
+    "x": 712.2,
+    "y": 474.0
   },
   {
-    "id": "epa_bpa_089",
+    "id": "p0157",
     "name": "EPA BPA / RERC3",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2880,14 +2908,14 @@
     "stateName": "Pennsylvania",
     "lat": 41.4339,
     "lon": -79.7064,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC3 in Oil Region, PA"
+    "x": 845.8,
+    "y": 266.2
   },
   {
-    "id": "epa_bpa_090",
+    "id": "p0158",
     "name": "EPA BPA / RERC3",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2900,14 +2928,14 @@
     "stateName": "West Virginia",
     "lat": 38.6926,
     "lon": -79.3517,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC3 in Pendleton County, WV"
+    "x": 862.6,
+    "y": 326.7
   },
   {
-    "id": "epa_bpa_091",
+    "id": "p0159",
     "name": "EPA BPA / RERC3",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2920,14 +2948,14 @@
     "stateName": "Wyoming",
     "lat": 44.7538,
     "lon": -108.7574,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC3 in Powell, WY"
+    "x": 367.3,
+    "y": 200.5
   },
   {
-    "id": "epa_bpa_092",
+    "id": "p0160",
     "name": "EPA BPA / RERC3",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2940,14 +2968,14 @@
     "stateName": "North Carolina",
     "lat": 35.9154,
     "lon": -82.0646,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC3 in Spruce Pine, NC"
+    "x": 824.9,
+    "y": 397.1
   },
   {
-    "id": "epa_bpa_093",
+    "id": "p0161",
     "name": "EPA BPA / RERC3",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2960,14 +2988,14 @@
     "stateName": "Virginia",
     "lat": 36.9068,
     "lon": -82.3115,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC3 in St. Paul, VA"
+    "x": 817.2,
+    "y": 375.3
   },
   {
-    "id": "epa_bpa_094",
+    "id": "p0162",
     "name": "EPA BPA / RERC3",
     "client": "U.S. EPA",
-    "type": "EPA BPA technical assistance",
+    "type": "EPA / Technical Assistance",
     "themes": [
       "EPA BPA",
       "RERC",
@@ -2980,16 +3008,16 @@
     "stateName": "Wisconsin",
     "lat": 44.1539,
     "lon": -87.5692,
-    "confidence": "epa_bpa_evidence",
-    "summary": "EPA BPA / RERC3 in Two Rivers, WI"
+    "x": 708.7,
+    "y": 221.8
   },
   {
-    "id": "staff_confirmed_fl_001",
-    "name": "EPR Florida work - Port St. Lucie",
+    "id": "p0163",
+    "name": "Port St. Lucie, Florida Work",
     "client": "Engineering and Planning Resources / EPR",
-    "type": "Staff-confirmed Florida work",
+    "type": "Engineering / Transportation",
     "themes": [
-      "former Engineering and Planning Resources Florida work"
+      "Engineering / Transportation"
     ],
     "year": "",
     "locality": "Port St. Lucie",
@@ -2997,17 +3025,16 @@
     "stateName": "Florida",
     "lat": 27.273049,
     "lon": -80.358226,
-    "confidence": "tyler_confirmed_current_firm",
-    "summary": "EPR Florida work - Port St. Lucie in Port St. Lucie, FL"
+    "x": 887.7,
+    "y": 585.4
   },
   {
-    "id": "staff_confirmed_fl_002",
+    "id": "p0164",
     "name": "Local Foods, Local Places 2019",
     "client": "Fort Pierce, FL",
-    "type": "LFLP5",
+    "type": "EPA / Technical Assistance",
     "themes": [
-      "legacy EPR staff workshop",
-      "Tyler-confirmed Florida work context"
+      "EPA / Technical Assistance"
     ],
     "year": "2019",
     "locality": "Fort Pierce",
@@ -3015,7 +3042,7 @@
     "stateName": "Florida",
     "lat": 27.426112,
     "lon": -80.342488,
-    "confidence": "tyler_confirmed_current_firm",
-    "summary": "Local Foods, Local Places 2019 in Fort Pierce, FL"
+    "x": 887.4,
+    "y": 582.0
   }
 ]
