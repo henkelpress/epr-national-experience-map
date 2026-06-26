@@ -33,6 +33,7 @@
     .detail { position:absolute; right:18px; top:18px; width:min(420px, calc(100% - 36px)); background:white; border:1px solid var(--line); border-radius:8px; box-shadow:0 18px 50px rgba(31,42,48,.16); padding:16px; z-index:500; }
     .detail h2 { margin:0 0 8px; font-size:20px; line-height:1.15; }
     .meta { color:var(--muted); font-size:13px; margin-bottom:12px; }
+    .summary { margin:0 0 14px; font-size:13px; line-height:1.45; color:#33434b; }
     .detail dl { display:grid; grid-template-columns:90px 1fr; gap:8px 12px; margin:0; font-size:13px; }
     .detail dt { color:var(--muted); }
     .detail dd { margin:0; }
@@ -62,7 +63,7 @@
         </div>
         <div class="btnrow">
           <button id="prev">Prev</button>
-          <button id="zoomSelection" class="primary">Zoom to selection</button>
+          <button id="zoomSelection" class="primary">Zoom selected</button>
           <button id="next">Next</button>
         </div>
       </section>
@@ -80,6 +81,7 @@
     let filtered = [];
     let selected = 0;
     let markers = [];
+    let markerByProjectId = new Map();
     let markerLayer;
 
     const map = L.map('map', { preferCanvas: true, zoomControl: true, worldCopyJump: true, fadeAnimation: false, zoomAnimation: false }).setView([38.2, -96.2], 4);
@@ -104,6 +106,33 @@
       const html = count > 1 ? `<div class="${cls}">${count}</div>` : `<div class="${cls}"></div>`;
       const size = count > 1 ? 24 : 18;
       return L.divIcon({ html, className: '', iconSize: [size, size], iconAnchor: [size / 2, size / 2] });
+    }
+    function cleanList(values) {
+      return [...new Set((values || []).map(v => String(v || '').trim()).filter(Boolean).filter(v => v.toLowerCase() !== 'other'))];
+    }
+    function projectSummary(p) {
+      if (p.summary) return p.summary;
+      const type = p.type || 'project support';
+      const typeLower = type.toLowerCase();
+      const themes = cleanList(p.themes).filter(t => t.toLowerCase() !== typeLower);
+      const workText = themes.length ? ` Support areas noted in the project record include ${themes.slice(0, 3).join(', ')}.` : '';
+      const yearText = p.year ? ` The project record lists ${p.year} as the associated year.` : '';
+      const clientValue = String(p.client || '').trim();
+      const placeValue = `${p.locality}, ${p.state}`.toLowerCase();
+      const clientText = clientValue && clientValue !== p.name && clientValue.toLowerCase() !== placeValue ? ` The listed client is ${clientValue}.` : '';
+      return `EPR project experience in ${p.locality}, ${p.stateName || p.state} for ${p.name || 'this project'}. The work is categorized as ${type}.${workText}${clientText}${yearText}`;
+    }
+    function projectLatLng(p) {
+      return L.latLng(Number(p.lat), Number(p.lon));
+    }
+    function popupHtml(group) {
+      const first = group[0].project;
+      if (group.length === 1) {
+        return `<strong>${escapeHtml(first.name || first.locality)}</strong><br><span>${escapeHtml(first.locality)}, ${escapeHtml(first.state)}</span><p style="margin:8px 0 0">${escapeHtml(projectSummary(first))}</p>`;
+      }
+      const items = group.slice(0, 5).map(g => `<li>${escapeHtml(g.project.name || 'Untitled project')}</li>`).join('');
+      const more = group.length > 5 ? `<li>${group.length - 5} more projects at this location</li>` : '';
+      return `<strong>${escapeHtml(first.locality)}, ${escapeHtml(first.state)}</strong><br>${group.length} projects at this location<ul style="margin:8px 0 0 18px;padding:0">${items}${more}</ul>`;
     }
     function populateFilters() {
       const states = [...new Set(projects.map(p => p.state).filter(Boolean))].sort();
@@ -131,12 +160,14 @@
     function renderMarkers() {
       markerLayer.clearLayers();
       markers = [];
+      markerByProjectId = new Map();
       groupProjects(filtered).forEach(group => {
         const first = group[0].project;
         const active = filtered[selected] && group.some(g => g.project.id === filtered[selected].id);
-        const marker = L.marker([first.lat, first.lon], { icon: makeIcon(group.length, active) }).addTo(markerLayer);
-        marker.bindPopup(`<strong>${escapeHtml(first.locality)}, ${escapeHtml(first.state)}</strong><br>${group.length} project${group.length === 1 ? '' : 's'}`);
+        const marker = L.marker(projectLatLng(first), { icon: makeIcon(group.length, active) }).addTo(markerLayer);
+        marker.bindPopup(popupHtml(group));
         marker.on('click', () => selectProject(group[0].index, true));
+        group.forEach(g => markerByProjectId.set(g.project.id, marker));
         markers.push(marker);
       });
     }
@@ -150,7 +181,7 @@
         return;
       }
       const p = filtered[selected];
-      $('detail').innerHTML = `<h2>${escapeHtml(p.name || 'Untitled project')}</h2><div class="meta">${escapeHtml(p.locality)}, ${escapeHtml(p.stateName || p.state)}${p.year ? ' | ' + escapeHtml(p.year) : ''}</div><dl><dt>Client</dt><dd>${escapeHtml(p.client || 'Not listed')}</dd><dt>Type</dt><dd>${escapeHtml(p.type)}</dd><dt>Place</dt><dd>${escapeHtml(p.locality)}, ${escapeHtml(p.state)}</dd></dl><div class="chips">${(p.themes || []).slice(0, 6).map(t => `<span class="chip">${escapeHtml(t)}</span>`).join('')}</div>`;
+      $('detail').innerHTML = `<h2>${escapeHtml(p.name || 'Untitled project')}</h2><div class="meta">${escapeHtml(p.locality)}, ${escapeHtml(p.stateName || p.state)}${p.year ? ' | ' + escapeHtml(p.year) : ''}</div><p class="summary">${escapeHtml(projectSummary(p))}</p><dl><dt>Client</dt><dd>${escapeHtml(p.client || 'Not listed')}</dd><dt>Type</dt><dd>${escapeHtml(p.type)}</dd><dt>Place</dt><dd>${escapeHtml(p.locality)}, ${escapeHtml(p.state)}</dd></dl><div class="chips">${(p.themes || []).slice(0, 6).map(t => `<span class="chip">${escapeHtml(t)}</span>`).join('')}</div>`;
       document.querySelectorAll('.item').forEach(item => item.classList.toggle('active', Number(item.dataset.index) === selected));
       const active = document.querySelector(`.item[data-index="${selected}"]`);
       if (active) active.scrollIntoView({ block: 'nearest' });
@@ -159,23 +190,35 @@
       if (!filtered.length) return;
       selected = (index + filtered.length) % filtered.length;
       renderAll();
-      if (zoom) {
-        const p = filtered[selected];
-        map.setView([p.lat, p.lon], Math.max(map.getZoom(), 8));
-      }
+      if (zoom) zoomToSelectedProject(true);
     }
-    function zoomToSelection() {
+    function zoomToSelectedProject(openPopup) {
+      if (!filtered.length) return;
+      const p = filtered[selected];
+      const target = projectLatLng(p);
+      const zoom = Math.max(map.getZoom(), 10);
+      map.closePopup();
+      map.invalidateSize({ pan: false });
+      map.setView(target, zoom, { animate: false });
+      setTimeout(() => {
+        map.invalidateSize({ pan: false });
+        map.panTo(target, { animate: false });
+        const marker = markerByProjectId.get(p.id);
+        if (openPopup && marker) marker.openPopup();
+      }, 0);
+    }
+    function zoomToResults() {
       if (!filtered.length) return;
       const bounds = L.latLngBounds(filtered.map(p => [p.lat, p.lon]));
       map.fitBounds(bounds.pad(0.22), { maxZoom: 9 });
     }
 
     $('search').addEventListener('input', applyFilters);
-    $('stateFilter').addEventListener('change', () => { applyFilters(); zoomToSelection(); });
+    $('stateFilter').addEventListener('change', () => { applyFilters(); zoomToResults(); });
     $('typeFilter').addEventListener('change', applyFilters);
     $('prev').addEventListener('click', () => selectProject(selected - 1, true));
     $('next').addEventListener('click', () => selectProject(selected + 1, true));
-    $('zoomSelection').addEventListener('click', zoomToSelection);
+    $('zoomSelection').addEventListener('click', () => zoomToSelectedProject(true));
 
     fetch('data/projects.json')
       .then(response => response.json())
@@ -184,7 +227,7 @@
         filtered = projects;
         populateFilters();
         renderAll();
-        zoomToSelection();
+        zoomToResults();
         setTimeout(() => map.invalidateSize(), 150);
       })
       .catch(error => {
