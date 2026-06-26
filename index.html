@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EPR National Experience Map</title>
+  <link rel="preconnect" href="https://unpkg.com">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIINfQZ9iibz8t2b6V0xp1C5P2ncLAt/E+s=" crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <style>
+    :root { --ink:#1f2a30; --muted:#64717a; --line:#d8dee2; --blue:#3ea8dd; --pale:#d8eef8; --panel:#ffffff; --bg:#f6f8f9; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background:var(--bg); color:var(--ink); }
+    .app { height:100vh; display:grid; grid-template-columns: 380px 1fr; }
+    aside { background:var(--panel); border-right:1px solid var(--line); display:flex; flex-direction:column; min-width:0; }
+    header { padding:18px 18px 14px; border-bottom:1px solid var(--line); }
+    h1 { margin:0; font-size:22px; line-height:1.1; letter-spacing:0; }
+    .counts { margin-top:8px; color:var(--muted); font-size:13px; }
+    .controls { padding:14px 18px; display:grid; gap:10px; border-bottom:1px solid var(--line); }
+    input, select, button { font:inherit; }
+    input, select { width:100%; border:1px solid var(--line); border-radius:6px; padding:10px 11px; background:white; color:var(--ink); font-size:14px; }
+    .row { display:grid; grid-template-columns: 1fr 1fr; gap:8px; }
+    .btnrow { display:grid; grid-template-columns: 44px 1fr 44px; gap:8px; }
+    button { border:1px solid var(--line); border-radius:6px; background:white; color:var(--ink); padding:9px 10px; cursor:pointer; font-weight:650; }
+    button:hover { border-color:#9db6c4; background:#f7fbfd; }
+    button.primary { background:var(--ink); color:white; border-color:var(--ink); }
+    .list { overflow:auto; padding:10px; display:grid; gap:8px; }
+    .item { border:1px solid var(--line); background:white; border-radius:7px; padding:10px; cursor:pointer; }
+    .item:hover, .item.active { border-color:var(--blue); box-shadow:0 0 0 2px rgba(62,168,221,.15); }
+    .item h3 { margin:0 0 5px; font-size:14px; line-height:1.2; }
+    .item p { margin:0; color:var(--muted); font-size:12px; line-height:1.35; }
+    main { position:relative; min-width:0; }
+    #map { height:100%; width:100%; }
+    .detail { position:absolute; right:18px; top:18px; width:min(420px, calc(100% - 36px)); background:white; border:1px solid var(--line); border-radius:8px; box-shadow:0 18px 50px rgba(31,42,48,.16); padding:16px; z-index:500; }
+    .detail h2 { margin:0 0 8px; font-size:20px; line-height:1.15; }
+    .detail .meta { color:var(--muted); font-size:13px; margin-bottom:12px; }
+    .chips { display:flex; flex-wrap:wrap; gap:6px; margin-top:10px; }
+    .chip { background:var(--pale); border:1px solid #b8dced; color:var(--ink); border-radius:999px; padding:4px 8px; font-size:12px; }
+    .detail dl { display:grid; grid-template-columns:110px 1fr; gap:8px 12px; margin:0; font-size:13px; }
+    .detail dt { color:var(--muted); }
+    .detail dd { margin:0; }
+    .leaflet-popup-content-wrapper { border-radius:8px; }
+    .dot { background:#1f2a30; border:2px solid white; border-radius:50%; box-shadow:0 1px 6px rgba(0,0,0,.25); }
+    @media (max-width: 820px) { .app { grid-template-columns:1fr; grid-template-rows: 46vh 54vh; } aside { grid-row:2; border-right:0; border-top:1px solid var(--line); } main { grid-row:1; } .detail { display:none; } }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <aside>
+      <header>
+        <h1>EPR National Experience</h1>
+        <div class="counts" id="counts">Loading projects...</div>
+      </header>
+      <section class="controls">
+        <input id="search" type="search" placeholder="Search project, locality, client" />
+        <div class="row">
+          <select id="stateFilter"><option value="">All states</option></select>
+          <select id="typeFilter"><option value="">All project types</option></select>
+        </div>
+        <div class="btnrow">
+          <button id="prev" title="Previous project">?</button>
+          <button id="zoomState" class="primary">Zoom to selection</button>
+          <button id="next" title="Next project">?</button>
+        </div>
+      </section>
+      <section class="list" id="list"></section>
+    </aside>
+    <main>
+      <div id="map"></div>
+      <section class="detail" id="detail"></section>
+    </main>
+  </div>
+<script>
+const map = L.map('map', { zoomControl:true }).setView([38.5, -96], 4);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 18, attribution: '&copy; OpenStreetMap contributors' }).addTo(map);
+let projects = [], filtered = [], selectedIndex = 0, markers = [], markerLayer = L.layerGroup().addTo(map);
+const $ = id => document.getElementById(id);
+const norm = v => String(v || '').toLowerCase();
+function typeBucket(p){
+  const text = norm([p.type, ...(p.themes||[])].join(' '));
+  if(text.includes('engineering') || text.includes('transportation') || text.includes('cei')) return 'Engineering / Transportation';
+  if(text.includes('housing')) return 'Housing';
+  if(text.includes('zoning')) return 'Zoning';
+  if(text.includes('epa') || text.includes('rerc') || text.includes('lflp') || text.includes('building blocks')) return 'EPA / Technical Assistance';
+  if(text.includes('comprehensive') || text.includes('plan') || text.includes('planning')) return 'Planning';
+  return p.type || 'Other';
+}
+function populateFilters(){
+  const states = [...new Set(projects.map(p => p.state).filter(Boolean))].sort();
+  const types = [...new Set(projects.map(typeBucket))].sort();
+  $('stateFilter').innerHTML = '<option value="">All states</option>' + states.map(s => `<option>${s}</option>`).join('');
+  $('typeFilter').innerHTML = '<option value="">All project types</option>' + types.map(t => `<option>${t}</option>`).join('');
+}
+function applyFilters(){
+  const q = norm($('search').value), st = $('stateFilter').value, ty = $('typeFilter').value;
+  filtered = projects.filter(p => (!st || p.state === st) && (!ty || typeBucket(p) === ty) && (!q || norm([p.name,p.client,p.locality,p.stateName,p.type,(p.themes||[]).join(' ')].join(' ')).includes(q)));
+  selectedIndex = Math.min(selectedIndex, Math.max(0, filtered.length - 1));
+  render();
+}
+function markerSize(count){ return Math.max(9, Math.min(24, 9 + Math.sqrt(count) * 3)); }
+function render(){
+  markerLayer.clearLayers(); markers = [];
+  const grouped = new Map();
+  filtered.forEach(p => { const k = `${p.lat.toFixed(4)},${p.lon.toFixed(4)}`; if(!grouped.has(k)) grouped.set(k, []); grouped.get(k).push(p); });
+  grouped.forEach(group => {
+    const p = group[0]; const size = markerSize(group.length);
+    const icon = L.divIcon({ className:'', html:`<div class="dot" style="width:${size}px;height:${size}px"></div>`, iconSize:[size,size], iconAnchor:[size/2,size/2] });
+    const m = L.marker([p.lat,p.lon], { icon }).addTo(markerLayer);
+    m.bindPopup(`<strong>${p.locality}, ${p.state}</strong><br>${group.length} project${group.length===1?'':'s'}`);
+    m.on('click', () => selectProject(filtered.indexOf(group[0]), true));
+    markers.push(m);
+  });
+  $('counts').textContent = `${filtered.length} of ${projects.length} projects shown`;
+  $('list').innerHTML = filtered.map((p,i) => `<article class="item ${i===selectedIndex?'active':''}" data-i="${i}"><h3>${p.name || 'Untitled project'}</h3><p>${p.locality}, ${p.state} ? ${typeBucket(p)}${p.year ? ' ? '+p.year : ''}</p></article>`).join('');
+  document.querySelectorAll('.item').forEach(el => el.addEventListener('click', () => selectProject(Number(el.dataset.i), true)));
+  renderDetail();
+}
+function renderDetail(){
+  if(!filtered.length){ $('detail').innerHTML = '<h2>No projects match</h2><div class="meta">Clear filters to restore the map.</div>'; return; }
+  const p = filtered[selectedIndex];
+  $('detail').innerHTML = `<h2>${p.name || 'Untitled project'}</h2><div class="meta">${p.locality}, ${p.stateName || p.state}${p.year ? ' ? '+p.year : ''}</div><dl><dt>Client</dt><dd>${p.client || 'Not listed'}</dd><dt>Type</dt><dd>${typeBucket(p)}</dd><dt>Map status</dt><dd>${p.confidence || 'Mapped'}</dd><dt>Coordinates</dt><dd>${p.lat.toFixed(4)}, ${p.lon.toFixed(4)}</dd></dl><div class="chips">${(p.themes||[]).slice(0,6).map(t => `<span class="chip">${t}</span>`).join('')}</div>`;
+  const active = document.querySelector(`.item[data-i="${selectedIndex}"]`); if(active) active.scrollIntoView({block:'nearest'});
+}
+function selectProject(i, zoom){
+  if(!filtered.length) return; selectedIndex = (i + filtered.length) % filtered.length; renderDetail();
+  const p = filtered[selectedIndex]; if(zoom) map.setView([p.lat,p.lon], Math.max(map.getZoom(), 8));
+  document.querySelectorAll('.item').forEach(el => el.classList.toggle('active', Number(el.dataset.i) === selectedIndex));
+}
+function zoomToSelection(){
+  if(!filtered.length) return;
+  const bounds = L.latLngBounds(filtered.map(p => [p.lat,p.lon])); map.fitBounds(bounds.pad(0.25), { maxZoom: 9 });
+}
+$('search').addEventListener('input', applyFilters); $('stateFilter').addEventListener('change', applyFilters); $('typeFilter').addEventListener('change', applyFilters);
+$('prev').addEventListener('click', () => selectProject(selectedIndex - 1, true)); $('next').addEventListener('click', () => selectProject(selectedIndex + 1, true)); $('zoomState').addEventListener('click', zoomToSelection);
+fetch('data/projects.json').then(r => r.json()).then(data => { projects = data.sort((a,b) => (a.state+a.locality+a.name).localeCompare(b.state+b.locality+b.name)); filtered = projects; populateFilters(); render(); zoomToSelection(); });
+</script>
+</body>
+</html>
