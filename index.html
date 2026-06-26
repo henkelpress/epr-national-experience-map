@@ -6,6 +6,7 @@
   <title>EPR National Experience Map</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
   <style>
     :root { --ink:#1f2a30; --muted:#60707a; --line:#d8dee2; --blue:#3ea8dd; --pale:#d8eef8; --bg:#eef3f5; --white:#fff; }
     * { box-sizing: border-box; }
@@ -45,6 +46,7 @@
     .leaflet-popup-content { margin:10px 12px; font-size:13px; }
     .leaflet-control-attribution { font-size:10px; }
     .leaflet-tile { opacity:1 !important; }
+    .state-fill { mix-blend-mode:multiply; }
     @media(max-width:860px) { .app { grid-template-columns:1fr; grid-template-rows:48vh 52vh; } aside { grid-row:2; border-right:0; border-top:1px solid var(--line); } main { grid-row:1; } .detail { display:none; } }
   </style>
 </head>
@@ -83,6 +85,10 @@
     let markers = [];
     let markerByProjectId = new Map();
     let markerLayer;
+    let stateLayer;
+    let stateCounts = {};
+    const stateFips = { AL:'01', AK:'02', AZ:'04', AR:'05', CA:'06', CO:'08', CT:'09', DE:'10', DC:'11', FL:'12', GA:'13', HI:'15', ID:'16', IL:'17', IN:'18', IA:'19', KS:'20', KY:'21', LA:'22', ME:'23', MD:'24', MA:'25', MI:'26', MN:'27', MS:'28', MO:'29', MT:'30', NE:'31', NV:'32', NH:'33', NJ:'34', NM:'35', NY:'36', NC:'37', ND:'38', OH:'39', OK:'40', OR:'41', PA:'42', RI:'44', SC:'45', SD:'46', TN:'47', TX:'48', UT:'49', VT:'50', VA:'51', WA:'53', WV:'54', WI:'55', WY:'56', PR:'72' };
+    const fipsState = Object.fromEntries(Object.entries(stateFips).map(([state, fips]) => [fips, state]));
 
     const map = L.map('map', { preferCanvas: true, zoomControl: true, worldCopyJump: true, fadeAnimation: false, zoomAnimation: false }).setView([38.2, -96.2], 4);
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -90,6 +96,9 @@
       attribution: '&copy; OpenStreetMap contributors'
     }).addTo(map);
     markerLayer = L.layerGroup().addTo(map);
+    map.createPane('statesPane');
+    map.getPane('statesPane').style.zIndex = 350;
+    map.getPane('statesPane').style.pointerEvents = 'none';
 
     function groupKey(p) { return `${p.lat.toFixed(4)},${p.lon.toFixed(4)}`; }
     function groupProjects(rows) {
@@ -113,15 +122,9 @@
     function projectSummary(p) {
       if (p.description) return p.description;
       if (p.summary) return p.summary;
-      const type = p.type || 'project support';
-      const typeLower = type.toLowerCase();
-      const themes = cleanList(p.themes).filter(t => t.toLowerCase() !== typeLower);
-      const workText = themes.length ? ` Support areas noted in the project record include ${themes.slice(0, 3).join(', ')}.` : '';
-      const yearText = p.year ? ` The project record lists ${p.year} as the associated year.` : '';
-      const clientValue = String(p.client || '').trim();
-      const placeValue = `${p.locality}, ${p.state}`.toLowerCase();
-      const clientText = clientValue && clientValue !== p.name && clientValue.toLowerCase() !== placeValue ? ` The listed client is ${clientValue}.` : '';
-      return `EPR project experience in ${p.locality}, ${p.stateName || p.state} for ${p.name || 'this project'}. The work is categorized as ${type}.${workText}${clientText}${yearText}`;
+      const type = p.type && p.type !== 'Other' ? p.type : 'planning support';
+      const yearText = p.year ? ` in ${p.year}` : '';
+      return `EPR helped ${p.locality}, ${p.stateName || p.state} with ${type}${yearText}. We helped local leaders make a plan and choose next steps. This can help your community move from ideas to action.`;
     }
     function projectLatLng(p) {
       return L.latLng(Number(p.lat), Number(p.lon));
@@ -134,6 +137,42 @@
       const items = group.slice(0, 5).map(g => `<li>${escapeHtml(g.project.name || 'Untitled project')}</li>`).join('');
       const more = group.length > 5 ? `<li>${group.length - 5} more projects at this location</li>` : '';
       return `<strong>${escapeHtml(first.locality)}, ${escapeHtml(first.state)}</strong><br>${group.length} projects at this location<ul style="margin:8px 0 0 18px;padding:0">${items}${more}</ul>`;
+    }
+
+    function computeStateCounts() {
+      stateCounts = projects.reduce((acc, p) => {
+        if (p.state) acc[p.state] = (acc[p.state] || 0) + 1;
+        return acc;
+      }, {});
+    }
+    function stateColor(count) {
+      if (!count) return '#ffffff';
+      if (count >= 60) return '#3f8fbc';
+      if (count >= 25) return '#79b9d5';
+      if (count >= 10) return '#add7e8';
+      return '#d8eef8';
+    }
+    function renderStateChoropleth(topology) {
+      if (!window.topojson || !topology?.objects?.states) return;
+      const geojson = topojson.feature(topology, topology.objects.states);
+      if (stateLayer) stateLayer.remove();
+      stateLayer = L.geoJSON(geojson, {
+        pane: 'statesPane',
+        interactive: false,
+        style: feature => {
+          const state = fipsState[String(feature.id).padStart(2, '0')];
+          const count = stateCounts[state] || 0;
+          return { className: 'state-fill', fillColor: stateColor(count), fillOpacity: count ? 0.45 : 0.02, color: '#7f8b92', weight: 0.45, opacity: 0.38 };
+        }
+      }).addTo(map);
+      stateLayer.bringToBack();
+    }
+    function loadStateChoropleth() {
+      computeStateCounts();
+      fetch('https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json')
+        .then(response => response.json())
+        .then(renderStateChoropleth)
+        .catch(() => {});
     }
     function populateFilters() {
       const states = [...new Set(projects.map(p => p.state).filter(Boolean))].sort();
@@ -166,7 +205,7 @@
         const first = group[0].project;
         const active = filtered[selected] && group.some(g => g.project.id === filtered[selected].id);
         const marker = L.marker(projectLatLng(first), { icon: makeIcon(group.length, active) }).addTo(markerLayer);
-        marker.bindPopup(popupHtml(group));
+        marker.bindPopup(popupHtml(group), { autoPan: false, keepInView: false });
         marker.on('click', () => selectProject(group[0].index, true));
         group.forEach(g => markerByProjectId.set(g.project.id, marker));
         markers.push(marker);
@@ -197,16 +236,16 @@
       if (!filtered.length) return;
       const p = filtered[selected];
       const target = projectLatLng(p);
-      const zoom = Math.max(map.getZoom(), 10);
+      const zoom = Math.max(map.getZoom(), 11);
       map.closePopup();
       map.invalidateSize({ pan: false });
-      map.setView(target, zoom, { animate: false });
+      map.setView(target, zoom, { animate: false, noMoveStart: true });
+      const marker = markerByProjectId.get(p.id);
+      if (openPopup && marker) marker.openPopup();
       setTimeout(() => {
         map.invalidateSize({ pan: false });
-        map.panTo(target, { animate: false });
-        const marker = markerByProjectId.get(p.id);
-        if (openPopup && marker) marker.openPopup();
-      }, 0);
+        map.setView(target, zoom, { animate: false, noMoveStart: true });
+      }, 80);
     }
     function zoomToResults() {
       if (!filtered.length) return;
@@ -227,6 +266,7 @@
         projects = data.filter(p => Number.isFinite(p.lat) && Number.isFinite(p.lon)).sort((a, b) => `${a.state} ${a.locality} ${a.name}`.localeCompare(`${b.state} ${b.locality} ${b.name}`));
         filtered = projects;
         populateFilters();
+        loadStateChoropleth();
         renderAll();
         zoomToResults();
         setTimeout(() => map.invalidateSize(), 150);
